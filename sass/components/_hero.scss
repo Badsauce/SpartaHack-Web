@@ -1,0 +1,15 @@
+$background: #f15d58;
+$assets: #363637;
+
+#hero {
+  height: 100vh;
+  background: $background;
+}
+
+.logo {
+  background: $assets;
+  height: 50em;
+  width: 50em;
+  margin: auto;
+  border-radius: 50%;
+}
