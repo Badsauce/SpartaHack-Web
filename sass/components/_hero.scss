@@ -2,14 +2,16 @@ $background: #f15d58;
 $assets: #363637;
 
 #hero {
-  height: 100vh;
+  height: 80vh;
   background: $background;
+  padding: 10vh;
 }
 
 .logo {
   background: $assets;
-  height: 50em;
-  width: 50em;
+  height: 0;
+  width: 40%;
+  padding-bottom: 40%;
   margin: auto;
   border-radius: 50%;
 }

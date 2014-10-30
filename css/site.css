@@ -1,14 +1,16 @@
 /* line 4, ../sass/components/_hero.scss */
 #hero {
-  height: 100vh;
+  height: 80vh;
   background: #f15d58;
+  padding: 10vh;
 }
 
-/* line 9, ../sass/components/_hero.scss */
+/* line 10, ../sass/components/_hero.scss */
 .logo {
   background: #363637;
-  height: 50em;
-  width: 50em;
+  height: 0;
+  width: 40%;
+  padding-bottom: 40%;
   margin: auto;
   border-radius: 50%;
 }
