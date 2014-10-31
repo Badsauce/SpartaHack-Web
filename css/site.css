@@ -24,7 +24,16 @@
   border-radius: 50%;
 }
 
-/* line 2, ../sass/components/_sponsors.scss */
+/* line 1, ../sass/components/_FAQ.scss */
+#FAQ {
+  background: #dbdecb;
+}
+
+/* line 1, ../sass/components/_sponsors.scss */
+#sponsors {
+  background: #414042;
+}
+/* line 4, ../sass/components/_sponsors.scss */
 #sponsors .logo {
   background: #939599;
   height: 0;
