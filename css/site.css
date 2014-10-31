@@ -24,7 +24,17 @@
   border-radius: 50%;
 }
 
-/* line 3, ../sass/site.scss */
+/* line 2, ../sass/components/_sponsors.scss */
+#sponsors .logo {
+  background: #363637;
+  height: 0;
+  width: 40%;
+  padding-bottom: 40%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+/* line 5, ../sass/site.scss */
 .wrap {
   max-width: 960px;
   margin: auto;
