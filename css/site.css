@@ -14,3 +14,9 @@
   margin: auto;
   border-radius: 50%;
 }
+
+/* line 3, ../sass/site.scss */
+.wrap {
+  max-width: 960px;
+  margin: auto;
+}
