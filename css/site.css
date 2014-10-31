@@ -1,4 +1,4 @@
-/* line 4, ../sass/components/_hero.scss */
+/* line 5, ../sass/components/_hero.scss */
 #hero {
   height: 80vh;
   background: #f15d58;
@@ -6,9 +6,16 @@
   text-align: center;
   color: #363637;
 }
-
-/* line 16, ../sass/components/_hero.scss */
-.logo {
+/* line 12, ../sass/components/_hero.scss */
+#hero a {
+  background: #363637;
+  color: #dbdecb;
+  padding: .5em;
+  border-radius: .8em;
+  text-decoration: none;
+}
+/* line 20, ../sass/components/_hero.scss */
+#hero .logo {
   background: #363637;
   height: 0;
   width: 40%;

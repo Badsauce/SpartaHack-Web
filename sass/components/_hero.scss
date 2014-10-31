@@ -1,5 +1,6 @@
 $background: #f15d58;
 $foreground: #363637;
+$text: #dbdecb;
 
 #hero {
   height: 80vh;
@@ -9,15 +10,19 @@ $foreground: #363637;
   color: #363637;
 
   a {
-
+    background: $foreground;
+    color: $text;
+    padding: .5em;
+    border-radius: .8em;
+    text-decoration: none;
   }
-}
 
-.logo {
-  background: $foreground;
-  height: 0;
-  width: 40%;
-  padding-bottom: 40%;
-  margin: auto;
-  border-radius: 50%;
+  .logo {
+    background: $foreground;
+    height: 0;
+    width: 40%;
+    padding-bottom: 40%;
+    margin: auto;
+    border-radius: 50%;
+  }
 }
