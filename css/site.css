@@ -27,6 +27,15 @@
 /* line 1, ../sass/components/_FAQ.scss */
 #FAQ {
   background: #dbdecb;
+  padding: .1em;
+}
+/* line 5, ../sass/components/_FAQ.scss */
+#FAQ article {
+  margin: .4em;
+}
+/* line 9, ../sass/components/_FAQ.scss */
+#FAQ p {
+  color: #363637;
 }
 
 /* line 1, ../sass/components/_sponsors.scss */
