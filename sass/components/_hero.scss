@@ -1,14 +1,16 @@
 $background: #f15d58;
-$assets: #363637;
+$foreground: #363637;
 
 #hero {
   height: 80vh;
   background: $background;
   padding: 10vh;
+  text-align: center;
+  color: #363637
 }
 
 .logo {
-  background: $assets;
+  background: $foreground;
   height: 0;
   width: 40%;
   padding-bottom: 40%;
