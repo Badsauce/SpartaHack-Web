@@ -1,24 +1,20 @@
-$background: #f15d58;
-$foreground: #363637;
-$text: #dbdecb;
-
 #hero {
   height: 80vh;
-  background: $background;
+  background: $heroBackground;
   padding: 10vh;
   text-align: center;
   color: #363637;
 
   a {
-    background: $foreground;
-    color: $text;
+    background: $heroForeground;
+    color: $heroText;
     padding: .5em;
     border-radius: .8em;
     text-decoration: none;
   }
 
   .logo {
-    background: $foreground;
+    background: $heroForeground;
     height: 0;
     width: 40%;
     padding-bottom: 40%;

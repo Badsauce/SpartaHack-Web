@@ -1,4 +1,4 @@
-/* line 5, ../sass/components/_hero.scss */
+/* line 1, ../sass/components/_hero.scss */
 #hero {
   height: 80vh;
   background: #f15d58;
@@ -6,7 +6,7 @@
   text-align: center;
   color: #363637;
 }
-/* line 12, ../sass/components/_hero.scss */
+/* line 8, ../sass/components/_hero.scss */
 #hero a {
   background: #363637;
   color: #dbdecb;
@@ -14,7 +14,7 @@
   border-radius: .8em;
   text-decoration: none;
 }
-/* line 20, ../sass/components/_hero.scss */
+/* line 16, ../sass/components/_hero.scss */
 #hero .logo {
   background: #363637;
   height: 0;
@@ -26,7 +26,7 @@
 
 /* line 2, ../sass/components/_sponsors.scss */
 #sponsors .logo {
-  background: #363637;
+  background: #939599;
   height: 0;
   width: 40%;
   padding-bottom: 40%;
@@ -34,7 +34,7 @@
   border-radius: 50%;
 }
 
-/* line 5, ../sass/site.scss */
+/* line 6, ../sass/site.scss */
 .wrap {
   max-width: 960px;
   margin: auto;
