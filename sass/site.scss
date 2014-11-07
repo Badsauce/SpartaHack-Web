@@ -1,0 +1,14 @@
+@import "compass/reset";
+@import 'compass/utilities/general/clearfix';
+
+@import 'components/colorScheme';
+@import 'components/fonts';
+
+@import 'components/hero';
+@import 'components/FAQ';
+@import 'components/sponsors';
+
+.wrap {
+  max-width: 960px;
+  margin: auto;
+}
