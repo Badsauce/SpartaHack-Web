@@ -159,7 +159,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /* line 95, ../sass/components/_hero.scss */
 #hero input[type=submit] {
-  display: inline-block;
+  display: block;
   color: #996928;
   background: none;
   border: 1px solid #996928;
