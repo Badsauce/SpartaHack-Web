@@ -48,13 +48,19 @@
     span {
       display: none;
     }
+
+  }
+
+  label {
+    display: inline-block;
+    width: 44%;
   }
 
   input[type=email] {
     background: none;
     border: 1px solid $heroMain;
     border-radius: 0;
-    width: 44%;
+    width: 100%;
     margin-right: 1%;
     height: 36px;
     color: $heroMain;
