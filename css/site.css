@@ -207,5 +207,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .wrap {
   max-width: 960px;
   margin: auto;
+}
+
+/* line 16, ../sass/site.scss */
+body {
   background: #15110e;
 }
