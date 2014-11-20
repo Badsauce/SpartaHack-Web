@@ -11,6 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -27,21 +30,31 @@
             <section class="pure-u-1" id="hero">
               <div class="wrap">
                 <img src="img/logo.svg" class="logo"/>
-                <h1>SPARTAHACK</h1>
-                <h2>march 27th - 29th</h2>
-                <p>> stay up to date <</p>
+                <h1 id="title-text">SPARTAHACK</h1>
+                <h2 class="responsive-text">march 27th - 29th</h2>
+                <p class="responsive-text">> stay up to date <</p>
 
-                <div class="sendgrid-subscription-widget"     data-token="l8K7yK2LtGirbOaHsqoUFLUaa8y3WNz3912TYYmbIi%2BktymOMgrYFmjW3oyQrwvskTzRv171AIfeUZGXwpL6yA%3D%3D"
-                data-submit-text=">"></div><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "sendgrid-subscription-widget-js");</script>
+                <div class="sendgrid-subscription-widget"
+                data-token="l8K7yK2LtGirbOaHsqoUFLUaa8y3WNz3912TYYmbIi%2BktymOMgrYFmjW3oyQrwvskTzRv171AIfeUZGXwpL6yA%3D%3D"
+                data-submit-text=">"
+                data-css="false">
+                </div><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "sendgrid-subscription-widget-js");</script>
 
-                <a href="mailto:hello@spartahack.com">contact us</a>
                 <a href="mailto:sponsor@spartahack.com">sponsor</a>
+                <a href="mailto:hello@spartahack.com">contact us</a>
+
               </div>
             </section>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.fittext.js"></script>
+        <script>
+          jQuery("#title-text").fitText(1);
+          jQuery(".responsive-text").fitText(1);
+        </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
