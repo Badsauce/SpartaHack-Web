@@ -4,15 +4,7 @@
 @import 'components/colorScheme';
 @import 'components/fonts';
 
+@import 'components/base';
 @import 'components/hero';
 @import 'components/FAQ';
 @import 'components/sponsors';
-
-.wrap {
-  max-width: 960px;
-  margin: auto;
-}
-
-body {
-  background: $heroBackground;
-}
