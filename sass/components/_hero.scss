@@ -1,12 +1,18 @@
 #hero {
-  height: 80vh;
+  height: 100vh;
   background: $heroBackground;
-  padding-top: 10vh;
+
   text-align: center;
   color: $heroMain;
   letter-spacing: .05em;
 
   font-family: PhantLight;
+
+  .wrap {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
   h1, h2, p{
     margin: auto;
@@ -103,11 +109,5 @@
     height: 40px;
 
     -webkit-appearance: none;
-  }
-}
-
-@media (min-width: 500px) {
-  #hero{
-    padding: 10vh;
   }
 }

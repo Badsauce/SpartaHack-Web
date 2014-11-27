@@ -79,61 +79,44 @@ body {
   background: #15110e;
 }
 
-/* line 10, ../sass/components/_base.scss */
-.center-container {
-  text-align: center;
-  /* The ghost, nudged to maintain perfect centering */
-}
-/* line 14, ../sass/components/_base.scss */
-.center-container:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-  /* Adjusts for spacing */
-}
-
-/* line 24, ../sass/components/_base.scss */
-.centered {
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-}
-
 /* line 1, ../sass/components/_hero.scss */
 #hero {
-  height: 80vh;
+  height: 100vh;
   background: #15110e;
-  padding-top: 10vh;
   text-align: center;
   color: #996928;
   letter-spacing: .05em;
   font-family: PhantLight;
 }
 /* line 11, ../sass/components/_hero.scss */
+#hero .wrap {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 17, ../sass/components/_hero.scss */
 #hero h1, #hero h2, #hero p {
   margin: auto;
 }
-/* line 15, ../sass/components/_hero.scss */
+/* line 21, ../sass/components/_hero.scss */
 #hero h1, #hero h2 {
   color: #641313;
 }
-/* line 19, ../sass/components/_hero.scss */
+/* line 25, ../sass/components/_hero.scss */
 #hero h1 {
   width: 60%;
   min-width: 300px;
   font-size: 500%;
   letter-spacing: .15em;
 }
-/* line 26, ../sass/components/_hero.scss */
+/* line 32, ../sass/components/_hero.scss */
 #hero h2 {
   width: 35%;
   min-width: 200px;
   font-size: 250%;
   letter-spacing: .05em;
 }
-/* line 33, ../sass/components/_hero.scss */
+/* line 39, ../sass/components/_hero.scss */
 #hero p {
   width: 20%;
   min-width: 140px;
@@ -143,12 +126,12 @@ body {
   font-family: Raleway;
   color: #744921;
 }
-/* line 43, ../sass/components/_hero.scss */
+/* line 49, ../sass/components/_hero.scss */
 #hero .logo {
   min-width: 185px;
   width: 30%;
 }
-/* line 48, ../sass/components/_hero.scss */
+/* line 54, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
   color: #996928;
@@ -159,20 +142,20 @@ body {
   text-decoration: none;
   font-size: 120%;
 }
-/* line 58, ../sass/components/_hero.scss */
+/* line 64, ../sass/components/_hero.scss */
 #hero a:hover {
   background: #641313;
 }
-/* line 65, ../sass/components/_hero.scss */
+/* line 71, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 71, ../sass/components/_hero.scss */
+/* line 77, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 76, ../sass/components/_hero.scss */
+/* line 82, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -183,13 +166,13 @@ body {
   color: #996928;
   -webkit-appearance: none;
 }
-/* line 88, ../sass/components/_hero.scss */
+/* line 94, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #744921;
   font-family: PhantLight;
   padding-left: .5em;
 }
-/* line 94, ../sass/components/_hero.scss */
+/* line 100, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #996928;
@@ -203,12 +186,6 @@ body {
   -webkit-appearance: none;
 }
 
-@media (min-width: 500px) {
-  /* line 110, ../sass/components/_hero.scss */
-  #hero {
-    padding: 10vh;
-  }
-}
 /* line 1, ../sass/components/_FAQ.scss */
 #FAQ {
   background: #dbdecb;
