@@ -79,6 +79,28 @@ body {
   background: #15110e;
 }
 
+/* line 10, ../sass/components/_base.scss */
+.center-container {
+  text-align: center;
+  /* The ghost, nudged to maintain perfect centering */
+}
+/* line 14, ../sass/components/_base.scss */
+.center-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing */
+}
+
+/* line 24, ../sass/components/_base.scss */
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
 /* line 1, ../sass/components/_hero.scss */
 #hero {
   height: 80vh;
