@@ -93,9 +93,31 @@
   }
 
   ::-webkit-input-placeholder {
-    color: $heroMainDark;
-    font-family: PhantLight;
-    padding-left: .5em;
+   color: $heroMainDark;
+   font-family: PhantLight;
+   padding-left: .5em;
+   letter-spacing: .06em;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: $heroMainDark;
+     font-family: PhantLight;
+     padding-left: .5em;
+     letter-spacing: .06em;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: $heroMainDark;
+     font-family: PhantLight;
+     padding-left: .5em;
+     letter-spacing: .06em;
+  }
+
+  :-ms-input-placeholder {
+     color: $heroMainDark;
+     font-family: PhantLight;
+     padding-left: .5em;
+     letter-spacing: .06em;
   }
 
   input[type=submit] {
