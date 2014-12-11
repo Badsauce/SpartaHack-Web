@@ -80,6 +80,11 @@
     width: 44%;
   }
 
+  div.mc-field-group {
+    width: 44%;
+    display: inline-block;
+  }
+
   input[type=email] {
     display: inline-block;
     background: none;
@@ -132,5 +137,9 @@
     height: 40px;
 
     -webkit-appearance: none;
+  }
+
+  #mc_embed_signup {
+    margin-bottom: 2em;
   }
 }
