@@ -139,6 +139,10 @@
         <script>
           jQuery("#title-text").fitText(1);
           jQuery(".responsive-text").fitText(1);
+
+          if (navigator.appVersion.indexOf("Mac")!=-1) {
+            $('#hero').find('a').addClass( "macCenter" );
+          }
         </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
