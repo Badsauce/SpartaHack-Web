@@ -142,31 +142,32 @@ body {
   display: inline-block;
   color: #996928;
   padding: .5em;
+  padding-top: .3em;
   margin: .1em;
   margin-top: 1em;
   border: 1px solid #996928;
   text-decoration: none;
   font-size: 120%;
 }
-/* line 62, ../sass/components/_hero.scss */
+/* line 63, ../sass/components/_hero.scss */
 #hero a:hover {
   background: #641313;
 }
-/* line 69, ../sass/components/_hero.scss */
+/* line 70, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 75, ../sass/components/_hero.scss */
+/* line 76, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 80, ../sass/components/_hero.scss */
+/* line 81, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 85, ../sass/components/_hero.scss */
+/* line 86, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -177,14 +178,14 @@ body {
   color: #996928;
   -webkit-appearance: none;
 }
-/* line 97, ../sass/components/_hero.scss */
+/* line 98, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #744921;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 104, ../sass/components/_hero.scss */
+/* line 105, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #744921;
@@ -192,7 +193,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 111, ../sass/components/_hero.scss */
+/* line 112, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #744921;
@@ -200,14 +201,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 118, ../sass/components/_hero.scss */
+/* line 119, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #744921;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 125, ../sass/components/_hero.scss */
+/* line 126, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #996928;
@@ -220,7 +221,7 @@ body {
   height: 40px;
   -webkit-appearance: none;
 }
-/* line 139, ../sass/components/_hero.scss */
+/* line 140, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 2em;
 }
