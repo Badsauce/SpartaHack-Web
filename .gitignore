@@ -3,3 +3,6 @@
 
 .sass-cache/
 .vagrant/
+
+puppet/
+Vagrantfile

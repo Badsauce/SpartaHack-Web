@@ -1,6 +1,0 @@
-[submodule "stdlib"]
-        path = puppet/modules/nodejs/spec/fixtures/modules/stdlib
-        url = https://github.com/puppetlabs/puppetlabs-stdlib.git
-[submodule "libbar"]
-        path = puppet/modules/nodejs/spec/fixtures/modules/wget
-        url = https://github.com/maestrodev/puppet-wget.git
