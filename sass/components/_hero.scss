@@ -52,6 +52,8 @@
   a {
     display: inline-block;
     color: $heroMain;
+    padding: .5em;
+    padding-top: .25em;
     margin: .1em;
     border: 1px solid $heroMain;
     text-decoration: none;
@@ -63,8 +65,8 @@
   }
 
   a.macCenter {
-    padding: .5em;
-    padding-bottom: .25em;
+    padding: .5em !important;
+    padding-bottom: .25em !important;
   }
 
   .sendgrid-subscription-widget {
