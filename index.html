@@ -140,8 +140,8 @@
           jQuery("#title-text").fitText(1);
           jQuery(".responsive-text").fitText(1);
 
-          if (navigator.appVersion.indexOf("Mac")!=-1) {
-            $('#hero').find('a').addClass( "macCenter" );
+          if ((navigator.appVersion.indexOf("Mac")!=-1) or (navigator.appVersion.indexOf("Linux")!=-1)) {
+            $('#hero').find('a').addClass( "nixCenter" );
           }
         </script>
         <script src="js/plugins.js"></script>
