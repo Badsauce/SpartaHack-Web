@@ -153,7 +153,7 @@ body {
   background: #641313;
 }
 /* line 67, ../sass/components/_hero.scss */
-#hero a.macCenter {
+#hero a.nixCenter {
   padding: .5em !important;
   padding-bottom: .25em !important;
 }
@@ -256,4 +256,10 @@ body {
   padding-bottom: 40%;
   margin: auto;
   border-radius: 50%;
+}
+
+/* line 13, ../sass/site.scss */
+#hero a.nixCenter {
+  padding: .5em !important;
+  padding-bottom: .25em !important;
 }

@@ -8,3 +8,10 @@
 @import 'components/hero';
 @import 'components/FAQ';
 @import 'components/sponsors';
+
+#hero {
+  a.nixCenter {
+    padding: .5em !important;
+    padding-bottom: .25em !important;
+  }
+}
