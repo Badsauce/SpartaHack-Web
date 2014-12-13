@@ -142,7 +142,7 @@ body {
   display: inline-block;
   color: #996928;
   padding: .5em;
-  padding-top: .25em;
+  padding-bottom: .25em;
   margin: .1em;
   border: 1px solid #996928;
   text-decoration: none;
@@ -152,26 +152,21 @@ body {
 #hero a:hover {
   background: #641313;
 }
-/* line 67, ../sass/components/_hero.scss */
-#hero a.nixCenter {
-  padding: .5em !important;
-  padding-bottom: .25em !important;
-}
-/* line 74, ../sass/components/_hero.scss */
+/* line 69, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 80, ../sass/components/_hero.scss */
+/* line 75, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 85, ../sass/components/_hero.scss */
+/* line 80, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 90, ../sass/components/_hero.scss */
+/* line 85, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -182,14 +177,14 @@ body {
   color: #996928;
   -webkit-appearance: none;
 }
-/* line 102, ../sass/components/_hero.scss */
+/* line 97, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #744921;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 109, ../sass/components/_hero.scss */
+/* line 104, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #744921;
@@ -197,7 +192,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 116, ../sass/components/_hero.scss */
+/* line 111, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #744921;
@@ -205,14 +200,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 123, ../sass/components/_hero.scss */
+/* line 118, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #744921;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 130, ../sass/components/_hero.scss */
+/* line 125, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #996928;
@@ -225,7 +220,7 @@ body {
   height: 40px;
   -webkit-appearance: none;
 }
-/* line 144, ../sass/components/_hero.scss */
+/* line 139, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 2em;
 }
@@ -259,7 +254,7 @@ body {
 }
 
 /* line 2, ../sass/components/_fontfixes.scss */
-#hero a.nixCenter {
-  padding: .5em !important;
-  padding-bottom: .25em !important;
+#hero a.windowsCenter {
+  padding: .5em;
+  padding-top: .25em;
 }

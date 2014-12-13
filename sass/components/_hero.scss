@@ -53,7 +53,7 @@
     display: inline-block;
     color: $heroMain;
     padding: .5em;
-    padding-top: .25em;
+    padding-bottom: .25em;
     margin: .1em;
     border: 1px solid $heroMain;
     text-decoration: none;
@@ -62,11 +62,6 @@
     &:hover {
       background: $heroAccent;
     }
-  }
-
-  a.nixCenter {
-    padding: .5em !important;
-    padding-bottom: .25em !important;
   }
 
   .sendgrid-subscription-widget {
