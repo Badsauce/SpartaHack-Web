@@ -109,7 +109,7 @@ body {
   height: 100vh;
   background: #433830;
   text-align: center;
-  color: #996928;
+  color: #F7E8DE;
   letter-spacing: .05em;
   font-family: PhantLight;
 }
@@ -119,7 +119,7 @@ body {
 }
 /* line 18, ../sass/components/_hero.scss */
 #hero h1, #hero h2 {
-  color: #641313;
+  color: #F7E8DE;
 }
 /* line 22, ../sass/components/_hero.scss */
 #hero h1 {
@@ -143,7 +143,7 @@ body {
   margin-top: 1.2em;
   margin-bottom: .7em;
   font-family: Raleway;
-  color: #744921;
+  color: #F7E8DE;
 }
 /* line 46, ../sass/components/_hero.scss */
 #hero .logo {
@@ -153,17 +153,17 @@ body {
 /* line 51, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
-  color: #996928;
+  color: #F7E8DE;
   padding: .5em;
   padding-bottom: .25em;
   margin: .1em;
-  border: 1px solid #996928;
+  border: 1px solid #F7E8DE;
   text-decoration: none;
   font-size: 120%;
 }
 /* line 61, ../sass/components/_hero.scss */
 #hero a:hover {
-  background: #641313;
+  background: #F7E8DE;
 }
 /* line 68, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
@@ -183,16 +183,16 @@ body {
 #hero input[type=email] {
   display: inline-block;
   background: none;
-  border: 1px solid #996928;
+  border: 1px solid #F7E8DE;
   border-radius: 0;
   width: 100%;
   height: 36px;
-  color: #996928;
+  color: #F7E8DE;
   -webkit-appearance: none;
 }
 /* line 96, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
-  color: #744921;
+  color: #F7E8DE;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
@@ -200,7 +200,7 @@ body {
 /* line 103, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
-  color: #744921;
+  color: #F7E8DE;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
@@ -208,14 +208,14 @@ body {
 /* line 110, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #744921;
+  color: #F7E8DE;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
 /* line 117, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
-  color: #744921;
+  color: #F7E8DE;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
@@ -223,9 +223,9 @@ body {
 /* line 124, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
-  color: #996928;
+  color: #F7E8DE;
   background: none;
-  border: 1px solid #996928;
+  border: 1px solid #F7E8DE;
   border-radius: 0;
   width: 40px;
   padding: 0;
@@ -297,7 +297,7 @@ body {
 .cloud2 {
   position: absolute;
   width: 85%;
-  top: 75vh;
+  top: 70vh;
   left: 30%;
 }
 
