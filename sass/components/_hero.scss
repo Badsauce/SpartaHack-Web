@@ -1,7 +1,6 @@
 #hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 
   height: 100vh;
   background: $heroBackground;
@@ -46,7 +45,7 @@
 
   .logo{
     min-width: 185px;
-    width: 30%
+    width: 35%
   }
 
   a {

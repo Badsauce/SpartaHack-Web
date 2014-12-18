@@ -1,9 +1,25 @@
 .wrap {
   width: 100%;
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 5vh;
+  z-index: 10;
+}
+
+.backdrop {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow-x: hidden;
 }
 
 body {
   background: $heroBackground;
+}
+
+.mirror {
+  transform: scaleX(-1);
+  filter: FlipH;
 }
