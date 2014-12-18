@@ -238,7 +238,12 @@ body {
   margin-bottom: 2em;
 }
 
-/* line 1, ../sass/components/_heroBackdrop.scss */
+/* line 2, ../sass/components/_heroBackdrop.scss */
+#hero .backdrop {
+  height: 200vh;
+}
+
+/* line 7, ../sass/components/_heroBackdrop.scss */
 .island {
   width: 100%;
   position: absolute;
@@ -247,7 +252,7 @@ body {
   z-index: 4;
 }
 
-/* line 9, ../sass/components/_heroBackdrop.scss */
+/* line 15, ../sass/components/_heroBackdrop.scss */
 .backfog {
   width: 100%;
   position: absolute;
@@ -256,7 +261,7 @@ body {
   z-index: 1;
 }
 
-/* line 17, ../sass/components/_heroBackdrop.scss */
+/* line 23, ../sass/components/_heroBackdrop.scss */
 .light-back-cloud {
   width: 35%;
   position: absolute;
@@ -265,7 +270,7 @@ body {
   z-index: 1;
 }
 
-/* line 25, ../sass/components/_heroBackdrop.scss */
+/* line 31, ../sass/components/_heroBackdrop.scss */
 .dark-back-cloud {
   position: absolute;
   width: 35%;
@@ -274,9 +279,35 @@ body {
   z-index: 1;
 }
 
-/* line 34, ../sass/components/_heroBackdrop.scss */
-#hero .backdrop {
-  height: 100vh;
+/* line 39, ../sass/components/_heroBackdrop.scss */
+.cloud1, .cloud2 {
+  opacity: 0.8;
+  z-index: 5;
+}
+
+/* line 44, ../sass/components/_heroBackdrop.scss */
+.cloud1 {
+  position: absolute;
+  width: 85%;
+  top: 30vh;
+  left: -20%;
+}
+
+/* line 51, ../sass/components/_heroBackdrop.scss */
+.cloud2 {
+  position: absolute;
+  width: 85%;
+  top: 75vh;
+  left: 30%;
+}
+
+/* line 58, ../sass/components/_heroBackdrop.scss */
+.lil-cloud {
+  position: absolute;
+  width: 45%;
+  top: 60vh;
+  left: -10%;
+  z-index: 6;
 }
 
 /* line 1, ../sass/components/_FAQ.scss */
