@@ -160,7 +160,7 @@ body {
   border: 1px solid #F7E8DE;
   text-decoration: none;
   font-size: 120%;
-  background-color: rgba(247, 232, 222, 0.5);
+  background-color: rgba(247, 232, 222, 0.3);
 }
 /* line 62, ../sass/components/_hero.scss */
 #hero a:hover {
@@ -189,7 +189,7 @@ body {
   width: 100%;
   height: 36px;
   color: #F7E8DE;
-  background-color: rgba(247, 232, 222, 0.5);
+  background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
 /* line 98, ../sass/components/_hero.scss */
@@ -233,7 +233,7 @@ body {
   padding: 0;
   margin-left: 20px;
   height: 40px;
-  background-color: rgba(247, 232, 222, 0.5);
+  background-color: rgba(247, 232, 222, 0.3);
   appearance: none;
 }
 /* line 141, ../sass/components/_hero.scss */
