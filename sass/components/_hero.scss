@@ -57,6 +57,7 @@
     border: 1px solid $heroMain;
     text-decoration: none;
     font-size: 120%;
+    background-color: $buttonBackground;
 
     &:hover {
       background: $heroAccent;
@@ -89,6 +90,7 @@
     width: 100%;
     height: 36px;
     color: $heroMain;
+    background-color: $buttonBackground;
 
     -webkit-appearance: none;
   }
@@ -131,8 +133,9 @@
     padding: 0;
     margin-left: 20px;
     height: 40px;
+    background-color: $buttonBackground;
 
-    -webkit-appearance: none;
+    appearance: none;
   }
 
   #mc_embed_signup {
