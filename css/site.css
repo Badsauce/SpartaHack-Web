@@ -153,7 +153,7 @@ body {
 /* line 51, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
-  color: #F7E8DE;
+  color: #433830;
   padding: .5em;
   padding-bottom: .25em;
   margin: .1em;
@@ -188,13 +188,13 @@ body {
   border-radius: 0;
   width: 100%;
   height: 36px;
-  color: #F7E8DE;
+  color: #433830;
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
 /* line 98, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
-  color: #F7E8DE;
+  color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
@@ -202,7 +202,7 @@ body {
 /* line 105, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
-  color: #F7E8DE;
+  color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
@@ -210,14 +210,14 @@ body {
 /* line 112, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #F7E8DE;
+  color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
 /* line 119, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
-  color: #F7E8DE;
+  color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
@@ -225,7 +225,7 @@ body {
 /* line 126, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
-  color: #F7E8DE;
+  color: #433830;
   background: none;
   border: 1px solid #F7E8DE;
   border-radius: 0;

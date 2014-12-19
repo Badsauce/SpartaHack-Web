@@ -50,7 +50,7 @@
 
   a {
     display: inline-block;
-    color: $heroMain;
+    color: $buttonText;
     padding: .5em;
     padding-bottom: .25em;
     margin: .1em;
@@ -89,35 +89,35 @@
     border-radius: 0;
     width: 100%;
     height: 36px;
-    color: $heroMain;
+    color: $buttonText;
     background-color: $buttonBackground;
 
     -webkit-appearance: none;
   }
 
   ::-webkit-input-placeholder {
-   color: $heroMainDark;
+   color: $buttonText;
    font-family: PhantLight;
    padding-left: .5em;
    letter-spacing: .06em;
   }
 
   :-moz-placeholder { /* Firefox 18- */
-     color: $heroMainDark;
+     color: $buttonText;
      font-family: PhantLight;
      padding-left: .5em;
      letter-spacing: .06em;
   }
 
   ::-moz-placeholder {  /* Firefox 19+ */
-     color: $heroMainDark;
+     color: $buttonText;
      font-family: PhantLight;
      padding-left: .5em;
      letter-spacing: .06em;
   }
 
   :-ms-input-placeholder {
-     color: $heroMainDark;
+     color: $buttonText;
      font-family: PhantLight;
      padding-left: .5em;
      letter-spacing: .06em;
@@ -125,7 +125,7 @@
 
   input[type=submit] {
     display: inline-block;
-    color: $heroMain;
+    color: $buttonText;
     background: none;
     border: 1px solid $heroMain;
     border-radius: 0;
