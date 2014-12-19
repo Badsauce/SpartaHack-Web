@@ -50,17 +50,16 @@
 
   a {
     display: inline-block;
-    color: $buttonText;
-    padding: .5em;
-    padding-bottom: .25em;
-    margin: .1em;
-    border: 1px solid $heroMain;
-    text-decoration: none;
-    font-size: 120%;
-    background-color: $buttonBackground;
+    color: $heroLink;
+    padding: 0 .4em;
+    //padding-bottom: .25em;
+    //border: 1px solid $heroMain;
+    //text-decoration: none;
+    font-size: 150%;
+    //background-color: $buttonBackground;
 
     &:hover {
-      background: $heroAccent;
+      color: $heroAccent;
     }
   }
 
@@ -139,6 +138,6 @@
   }
 
   #mc_embed_signup {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 }

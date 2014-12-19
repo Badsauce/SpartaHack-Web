@@ -1,6 +1,6 @@
 #hero {
   .backdrop{
-    height: 200vh;
+    height: 100vh;
   }
 }
 
@@ -61,4 +61,12 @@
   top: 60vh;
   left: -10%;
   z-index: 6;
+}
+
+.faq-head {
+  position: absolute;
+  width: 120%;
+  top: 80vh;
+  left: -10%;
+  z-index: 8;
 }
