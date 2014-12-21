@@ -72,11 +72,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  margin-top: 5vh;
   z-index: 10;
 }
 
-/* line 9, ../sass/components/_base.scss */
+/* line 8, ../sass/components/_base.scss */
 .backdrop {
   width: 100%;
   position: absolute;
@@ -86,12 +85,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
 }
 
-/* line 18, ../sass/components/_base.scss */
+/* line 17, ../sass/components/_base.scss */
 body {
   background: #433830;
 }
 
-/* line 22, ../sass/components/_base.scss */
+/* line 21, ../sass/components/_base.scss */
 .mirror {
   -webkit-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
@@ -147,35 +146,42 @@ body {
 }
 /* line 46, ../sass/components/_hero.scss */
 #hero .logo {
+  margin-top: 10vh;
   min-width: 185px;
   width: 35%;
 }
-/* line 51, ../sass/components/_hero.scss */
+@media (min-width: 600px) {
+  /* line 46, ../sass/components/_hero.scss */
+  #hero .logo {
+    margin-top: 5vh;
+  }
+}
+/* line 56, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
   color: #F7E8DE;
   padding: 0 .4em;
   font-size: 150%;
 }
-/* line 61, ../sass/components/_hero.scss */
+/* line 66, ../sass/components/_hero.scss */
 #hero a:hover {
   color: #F7E8DE;
 }
-/* line 68, ../sass/components/_hero.scss */
+/* line 73, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 74, ../sass/components/_hero.scss */
+/* line 79, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 79, ../sass/components/_hero.scss */
+/* line 84, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 84, ../sass/components/_hero.scss */
+/* line 89, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -187,14 +193,14 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 97, ../sass/components/_hero.scss */
+/* line 102, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 104, ../sass/components/_hero.scss */
+/* line 109, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #433830;
@@ -202,7 +208,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 111, ../sass/components/_hero.scss */
+/* line 116, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #433830;
@@ -210,14 +216,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 118, ../sass/components/_hero.scss */
+/* line 123, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 125, ../sass/components/_hero.scss */
+/* line 130, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #433830;
@@ -231,7 +237,7 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   appearance: none;
 }
-/* line 140, ../sass/components/_hero.scss */
+/* line 145, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 1em;
 }
@@ -245,21 +251,33 @@ body {
 .island {
   width: 100%;
   position: absolute;
-  top: 25vh;
+  top: 72vh;
   left: 0;
   z-index: 4;
 }
+@media (min-width: 600px) {
+  /* line 7, ../sass/components/_heroBackdrop.scss */
+  .island {
+    top: 25vh;
+  }
+}
 
-/* line 15, ../sass/components/_heroBackdrop.scss */
+/* line 19, ../sass/components/_heroBackdrop.scss */
 .backfog {
   width: 100%;
   position: absolute;
-  top: 45vh;
+  top: 78vh;
   left: 0;
   z-index: 1;
 }
+@media (min-width: 600px) {
+  /* line 19, ../sass/components/_heroBackdrop.scss */
+  .backfog {
+    top: 45vh;
+  }
+}
 
-/* line 23, ../sass/components/_heroBackdrop.scss */
+/* line 31, ../sass/components/_heroBackdrop.scss */
 .light-back-cloud {
   width: 35%;
   position: absolute;
@@ -268,7 +286,7 @@ body {
   z-index: 1;
 }
 
-/* line 31, ../sass/components/_heroBackdrop.scss */
+/* line 39, ../sass/components/_heroBackdrop.scss */
 .dark-back-cloud {
   position: absolute;
   width: 35%;
@@ -277,13 +295,13 @@ body {
   z-index: 1;
 }
 
-/* line 39, ../sass/components/_heroBackdrop.scss */
+/* line 47, ../sass/components/_heroBackdrop.scss */
 .cloud1, .cloud2 {
   opacity: 0.8;
   z-index: 5;
 }
 
-/* line 44, ../sass/components/_heroBackdrop.scss */
+/* line 52, ../sass/components/_heroBackdrop.scss */
 .cloud1 {
   position: absolute;
   width: 85%;
@@ -291,15 +309,21 @@ body {
   left: -20%;
 }
 
-/* line 51, ../sass/components/_heroBackdrop.scss */
+/* line 59, ../sass/components/_heroBackdrop.scss */
 .cloud2 {
   position: absolute;
   width: 85%;
-  top: 70vh;
+  top: 83vh;
   left: 30%;
 }
+@media (min-width: 600px) {
+  /* line 59, ../sass/components/_heroBackdrop.scss */
+  .cloud2 {
+    top: 70vh;
+  }
+}
 
-/* line 58, ../sass/components/_heroBackdrop.scss */
+/* line 70, ../sass/components/_heroBackdrop.scss */
 .lil-cloud {
   position: absolute;
   width: 45%;
@@ -308,13 +332,19 @@ body {
   z-index: 6;
 }
 
-/* line 66, ../sass/components/_heroBackdrop.scss */
+/* line 78, ../sass/components/_heroBackdrop.scss */
 .faq-head {
   position: absolute;
   width: 120%;
-  top: 78vh;
+  top: 90vh;
   left: -10%;
   z-index: 8;
+}
+@media (min-width: 600px) {
+  /* line 78, ../sass/components/_heroBackdrop.scss */
+  .faq-head {
+    top: 78vh;
+  }
 }
 
 /* line 1, ../sass/components/_FAQ.scss */

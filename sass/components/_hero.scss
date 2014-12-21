@@ -44,8 +44,13 @@
   }
 
   .logo{
+    margin-top: 10vh;
     min-width: 185px;
-    width: 35%
+    width: 35%;
+
+    @media (min-width: 600px) {
+      margin-top: 5vh;
+    }
   }
 
   a {
