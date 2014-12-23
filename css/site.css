@@ -407,9 +407,10 @@ body {
 /* line 20, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
-  font-size: 150%;
+  font-size: 170%;
+  line-height: 120%;
 }
-/* line 24, ../sass/components/_FAQ.scss */
+/* line 25, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
