@@ -1,12 +1,14 @@
-#FAQ {
-  background: $faqBackground;
+#faq {
   padding: .1em;
 
-  article {
-    margin: .4em;
-  }
+  background: $faqBackground;
+  color: $faqText;
+  font-family: PhantLight;
 
-  p {
-    color: $faqText;
+  h1 {
+    margin: auto;
+    font-size: 500%;
+    text-transform: capitalize;
+    text-align: center;
   }
 }

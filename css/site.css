@@ -361,17 +361,18 @@ body {
 }
 
 /* line 1, ../sass/components/_FAQ.scss */
-#FAQ {
-  background: #dbdecb;
+#faq {
   padding: .1em;
+  background: #d5baa9;
+  color: #998100;
+  font-family: PhantLight;
 }
-/* line 5, ../sass/components/_FAQ.scss */
-#FAQ article {
-  margin: .4em;
-}
-/* line 9, ../sass/components/_FAQ.scss */
-#FAQ p {
-  color: #363637;
+/* line 8, ../sass/components/_FAQ.scss */
+#faq h1 {
+  margin: auto;
+  font-size: 500%;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 /* line 1, ../sass/components/_sponsors.scss */
