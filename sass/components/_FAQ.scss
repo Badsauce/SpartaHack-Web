@@ -4,11 +4,26 @@
   background: $faqBackground;
   color: $faqText;
   font-family: PhantLight;
+  text-align: left;
 
   h1 {
-    margin: auto;
-    font-size: 500%;
     text-transform: capitalize;
+    font-size: 200%;
+    padding-bottom: .4em;
+  }
+
+  p {
+    font-family: Raleway;
+    font-size: 110%;
+  }
+
+  .full {
     text-align: center;
+    font-size: 150%;
+
+    h1 {
+      font-size: 275%;
+      padding-bottom: .3em;
+    }
   }
 }

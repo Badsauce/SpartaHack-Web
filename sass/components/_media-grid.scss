@@ -1,0 +1,15 @@
+.media-grid {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  article {
+    width: 30%;
+    padding: 1%;
+  }
+
+  .full {
+    width: 100%;
+  }
+}

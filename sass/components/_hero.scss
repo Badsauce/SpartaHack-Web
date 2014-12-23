@@ -57,11 +57,8 @@
     display: inline-block;
     color: $heroLink;
     padding: 0 .4em;
-    //padding-bottom: .25em;
-    //border: 1px solid $heroMain;
-    //text-decoration: none;
+    text-transform: lowercase;
     font-size: 150%;
-    //background-color: $buttonBackground;
 
     &:hover {
       color: $heroAccent;
