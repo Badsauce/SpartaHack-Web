@@ -374,43 +374,45 @@ body {
 .faq-head {
   position: absolute;
   width: 120%;
-  top: 90vh;
+  bottom: 0vh;
   left: -10%;
   z-index: 8;
 }
 @media (min-width: 600px) {
   /* line 87, ../sass/components/_heroBackdrop.scss */
   .faq-head {
-    top: 78vh;
+    bottom: -10vh;
   }
 }
 
 /* line 1, ../sass/components/_FAQ.scss */
 #faq {
   padding: .1em;
-  background: #d5baa9;
+  padding-top: 15vh;
+  background: #d8bca7;
   color: #5d4f43;
-  font-family: PhantLight;
+  font-family: Raleway;
   text-align: left;
+  position: relative;
 }
-/* line 9, ../sass/components/_FAQ.scss */
+/* line 11, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 200%;
   padding-bottom: .4em;
 }
-/* line 15, ../sass/components/_FAQ.scss */
+/* line 17, ../sass/components/_FAQ.scss */
 #faq p {
   font-family: Raleway;
   font-size: 110%;
 }
-/* line 20, ../sass/components/_FAQ.scss */
+/* line 22, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 170%;
   line-height: 120%;
 }
-/* line 25, ../sass/components/_FAQ.scss */
+/* line 27, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;

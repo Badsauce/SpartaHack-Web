@@ -1,10 +1,12 @@
 #faq {
   padding: .1em;
+  padding-top: 15vh;
 
   background: $faqBackground;
   color: $faqText;
-  font-family: PhantLight;
+  font-family: Raleway;
   text-align: left;
+  position: relative;
 
   h1 {
     text-transform: capitalize;
