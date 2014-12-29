@@ -18,7 +18,12 @@ body {
   background: $heroBackground;
 }
 
-.mirror {
+.mirrorX {
   transform: scaleX(-1);
   filter: FlipH;
+}
+
+.mirrorY {
+  transform: scaleY(-1);
+  filter: FlipV;
 }

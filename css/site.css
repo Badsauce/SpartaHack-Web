@@ -91,12 +91,21 @@ body {
 }
 
 /* line 21, ../sass/components/_base.scss */
-.mirror {
+.mirrorX {
   -webkit-transform: scaleX(-1);
       -ms-transform: scaleX(-1);
           transform: scaleX(-1);
   -webkit-filter: FlipH;
           filter: FlipH;
+}
+
+/* line 26, ../sass/components/_base.scss */
+.mirrorY {
+  -webkit-transform: scaleY(-1);
+      -ms-transform: scaleY(-1);
+          transform: scaleY(-1);
+  -webkit-filter: FlipV;
+          filter: FlipV;
 }
 
 /* line 1, ../sass/components/_media-grid.scss */
@@ -400,10 +409,18 @@ body {
   }
 }
 
+/* line 99, ../sass/components/_heroBackdrop.scss */
+.faq-tail {
+  position: absolute;
+  width: 120%;
+  top: -10vh;
+  left: -10%;
+  z-index: 8;
+}
+
 /* line 1, ../sass/components/_FAQ.scss */
 #faq {
   padding: .1em;
-  padding-top: 7.5vh;
   background: #d8bca7;
   color: #5d4f43;
   font-family: Raleway;
@@ -413,47 +430,51 @@ body {
 @media (min-width: 550px) {
   /* line 1, ../sass/components/_FAQ.scss */
   #faq {
-    padding-top: 15vh;
     text-align: left;
   }
 }
-/* line 17, ../sass/components/_FAQ.scss */
+/* line 16, ../sass/components/_FAQ.scss */
+#faq article {
+  z-index: 10;
+}
+/* line 20, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 200%;
   padding-bottom: .4em;
 }
-/* line 23, ../sass/components/_FAQ.scss */
+/* line 26, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
   display: none;
+  z-index: 10;
 }
 @media (min-width: 550px) {
-  /* line 23, ../sass/components/_FAQ.scss */
+  /* line 26, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 35, ../sass/components/_FAQ.scss */
+/* line 39, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 3%;
 }
-/* line 40, ../sass/components/_FAQ.scss */
+/* line 44, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 45, ../sass/components/_FAQ.scss */
+/* line 49, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 35, ../sass/components/_FAQ.scss */
+  /* line 39, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
@@ -463,15 +484,7 @@ body {
 /* line 1, ../sass/components/_sponsors.scss */
 #sponsors {
   background: #414042;
-}
-/* line 4, ../sass/components/_sponsors.scss */
-#sponsors .logo {
-  background: #939599;
-  height: 0;
-  width: 40%;
-  padding-bottom: 40%;
-  margin: auto;
-  border-radius: 50%;
+  position: relative;
 }
 
 /* line 2, ../sass/components/_fontfixes.scss */

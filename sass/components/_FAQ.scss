@@ -1,6 +1,5 @@
 #faq {
   padding: .1em;
-  padding-top: 7.5vh;
 
   background: $faqBackground;
   color: $faqText;
@@ -8,10 +7,14 @@
   text-align: center;
   position: relative;
 
+
   @media (min-width: 550px) {
-    padding-top: 15vh;
 
     text-align: left;
+  }
+
+  article {
+    z-index: 10;
   }
 
   h1 {
@@ -24,6 +27,7 @@
     font-size: 120%;
     padding: 1em;
     display: none;
+    z-index: 10;
 
     @media (min-width: 550px) {
       display: block;
