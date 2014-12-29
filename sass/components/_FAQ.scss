@@ -1,12 +1,20 @@
 #faq {
   padding: .1em;
-  padding-top: 15vh;
+  padding-top: 7.5vh;
 
   background: $faqBackground;
   color: $faqText;
   font-family: Raleway;
-  text-align: left;
+  text-align: center;
   position: relative;
+
+  @media (min-width: 550px) {
+    padding-top: 15vh;
+
+    font-size: 210%;
+    line-height: 120%;
+    text-align: left;
+  }
 
   h1 {
     text-transform: capitalize;
@@ -15,15 +23,23 @@
   }
 
   p {
-    font-family: Raleway;
-    font-size: 110%;
+    font-size: 120%;
+    padding: 1em;
+
+    @media (min-width: 550px) {
+      font-size: 110%;
+    }
   }
 
   .full {
     text-align: center;
-    font-size: 170%;
-    line-height: 120%;
+    font-size: 120%;
     padding-bottom: 3%;
+
+    @media (min-width: 550px) {
+      font-size: 210%;
+      line-height: 120%;
+    }
 
     h1 {
       font-size: 275%;

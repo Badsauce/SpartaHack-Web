@@ -135,6 +135,7 @@ body {
 /* line 22, ../sass/components/_media-grid.scss */
 .media-grid .full {
   width: 100%;
+  padding: 1em;
 }
 
 /* line 1, ../sass/components/_hero.scss */
@@ -402,32 +403,53 @@ body {
 /* line 1, ../sass/components/_FAQ.scss */
 #faq {
   padding: .1em;
-  padding-top: 15vh;
+  padding-top: 7.5vh;
   background: #d8bca7;
   color: #5d4f43;
   font-family: Raleway;
-  text-align: left;
+  text-align: center;
   position: relative;
 }
-/* line 11, ../sass/components/_FAQ.scss */
+@media (min-width: 550px) {
+  /* line 1, ../sass/components/_FAQ.scss */
+  #faq {
+    padding-top: 15vh;
+    font-size: 210%;
+    line-height: 120%;
+    text-align: left;
+  }
+}
+/* line 19, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 200%;
   padding-bottom: .4em;
 }
-/* line 17, ../sass/components/_FAQ.scss */
+/* line 25, ../sass/components/_FAQ.scss */
 #faq p {
-  font-family: Raleway;
-  font-size: 110%;
+  font-size: 120%;
+  padding: 1em;
 }
-/* line 22, ../sass/components/_FAQ.scss */
+@media (min-width: 550px) {
+  /* line 25, ../sass/components/_FAQ.scss */
+  #faq p {
+    font-size: 110%;
+  }
+}
+/* line 34, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
-  font-size: 170%;
-  line-height: 120%;
+  font-size: 120%;
   padding-bottom: 3%;
 }
-/* line 28, ../sass/components/_FAQ.scss */
+@media (min-width: 550px) {
+  /* line 34, ../sass/components/_FAQ.scss */
+  #faq .full {
+    font-size: 210%;
+    line-height: 120%;
+  }
+}
+/* line 44, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
