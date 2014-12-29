@@ -414,42 +414,41 @@ body {
   /* line 1, ../sass/components/_FAQ.scss */
   #faq {
     padding-top: 15vh;
-    font-size: 210%;
-    line-height: 120%;
     text-align: left;
   }
 }
-/* line 19, ../sass/components/_FAQ.scss */
+/* line 17, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 200%;
   padding-bottom: .4em;
 }
-/* line 25, ../sass/components/_FAQ.scss */
+/* line 23, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
 }
 @media (min-width: 550px) {
-  /* line 25, ../sass/components/_FAQ.scss */
+  /* line 23, ../sass/components/_FAQ.scss */
   #faq p {
     font-size: 110%;
+    padding: 0;
   }
 }
-/* line 34, ../sass/components/_FAQ.scss */
+/* line 33, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 3%;
 }
 @media (min-width: 550px) {
-  /* line 34, ../sass/components/_FAQ.scss */
+  /* line 33, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
   }
 }
-/* line 44, ../sass/components/_FAQ.scss */
+/* line 43, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
