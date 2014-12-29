@@ -427,31 +427,37 @@ body {
 #faq p {
   font-size: 120%;
   padding: 1em;
+  display: none;
 }
 @media (min-width: 550px) {
   /* line 23, ../sass/components/_FAQ.scss */
   #faq p {
+    display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 33, ../sass/components/_FAQ.scss */
+/* line 35, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 3%;
 }
+/* line 40, ../sass/components/_FAQ.scss */
+#faq .full h1 {
+  font-size: 275%;
+  padding-bottom: .3em;
+}
+/* line 45, ../sass/components/_FAQ.scss */
+#faq .full p {
+  display: block;
+}
 @media (min-width: 550px) {
-  /* line 33, ../sass/components/_FAQ.scss */
+  /* line 35, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
   }
-}
-/* line 43, ../sass/components/_FAQ.scss */
-#faq .full h1 {
-  font-size: 275%;
-  padding-bottom: .3em;
 }
 
 /* line 1, ../sass/components/_sponsors.scss */

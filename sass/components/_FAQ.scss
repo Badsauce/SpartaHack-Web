@@ -23,8 +23,10 @@
   p {
     font-size: 120%;
     padding: 1em;
+    display: none;
 
     @media (min-width: 550px) {
+      display: block;
       font-size: 110%;
       padding: 0;
     }
@@ -35,14 +37,18 @@
     font-size: 120%;
     padding-bottom: 3%;
 
-    @media (min-width: 550px) {
-      font-size: 210%;
-      line-height: 120%;
-    }
-
     h1 {
       font-size: 275%;
       padding-bottom: .3em;
+    }
+
+    p {
+      display: block;
+    }
+
+    @media (min-width: 550px) {
+      font-size: 210%;
+      line-height: 120%;
     }
   }
 }
