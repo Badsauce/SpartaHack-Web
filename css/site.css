@@ -412,9 +412,9 @@ body {
 /* line 99, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
-  width: 100%;
+  width: 110%;
   top: -1vh;
-  left: 0;
+  left: -5%;
   z-index: 8;
 }
 
