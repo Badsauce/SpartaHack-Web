@@ -485,7 +485,48 @@ body {
 #sponsors {
   background: #3f332b;
   position: relative;
-  height: 100vh;
+  padding: 35vh 0;
+}
+/* line 6, ../sass/components/_sponsors.scss */
+#sponsors h1 {
+  text-align: center;
+  font-size: 500%;
+  font-family: PhantLight;
+  text-transform: capitalize;
+  padding: 0;
+  padding-bottom: 2em;
+}
+/* line 15, ../sass/components/_sponsors.scss */
+#sponsors article {
+  position: relative;
+}
+/* line 19, ../sass/components/_sponsors.scss */
+#sponsors .media-grid {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* line 24, ../sass/components/_sponsors.scss */
+.ship {
+  width: 100%;
+  margin-top: -28%;
+}
+
+/* line 29, ../sass/components/_sponsors.scss */
+.sponsor-logo {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+/* line 35, ../sass/components/_sponsors.scss */
+.waves {
+  position: absolute;
+  left: -3%;
+  bottom: 5%;
+  width: 100%;
 }
 
 /* line 2, ../sass/components/_fontfixes.scss */
