@@ -117,10 +117,10 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 /* line 7, ../sass/components/_media-grid.scss */
 .media-grid article {
@@ -412,9 +412,9 @@ body {
 /* line 99, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
-  width: 120%;
-  top: -10vh;
-  left: -10%;
+  width: 100%;
+  top: -1vh;
+  left: 0;
   z-index: 8;
 }
 
@@ -483,8 +483,9 @@ body {
 
 /* line 1, ../sass/components/_sponsors.scss */
 #sponsors {
-  background: #414042;
+  background: #3f332b;
   position: relative;
+  height: 100vh;
 }
 
 /* line 2, ../sass/components/_fontfixes.scss */
