@@ -525,7 +525,7 @@ body {
 /* line 37, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
-  left: -3%;
+  left: 0;
   bottom: 5%;
   width: 100%;
 }
