@@ -487,7 +487,7 @@ body {
   position: relative;
   padding: 35vh 0;
 }
-/* line 6, ../sass/components/_sponsors.scss */
+/* line 7, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
   font-size: 500%;
@@ -495,12 +495,13 @@ body {
   text-transform: capitalize;
   padding: 0;
   padding-bottom: 2em;
+  color: #d8bca7;
 }
-/* line 15, ../sass/components/_sponsors.scss */
+/* line 17, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 19, ../sass/components/_sponsors.scss */
+/* line 21, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -508,20 +509,20 @@ body {
           align-items: flex-end;
 }
 
-/* line 24, ../sass/components/_sponsors.scss */
+/* line 26, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
   margin-top: -28%;
 }
 
-/* line 29, ../sass/components/_sponsors.scss */
+/* line 31, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
   width: 60%;
   margin: auto;
 }
 
-/* line 35, ../sass/components/_sponsors.scss */
+/* line 37, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: -3%;
