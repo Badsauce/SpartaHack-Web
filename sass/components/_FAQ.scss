@@ -29,9 +29,11 @@
 
     @media (max-width: 550px) {
       padding-top: .4em;
-      border: 3px solid $faqText;
+      //border: 3px solid $faqText;
       //border-radius: 6px;
       margin: 0 5%;
+      color: $faqBackground;
+      background-color: $mediumBrown;
     }
   }
 
