@@ -3,7 +3,8 @@
 
   background: $faqBackground;
   color: $faqText;
-  font-family: Raleway;
+  font-family: Lato;
+  font-weight: 200;
   text-align: center;
   position: relative;
 
@@ -28,6 +29,7 @@
     padding: 1em;
     display: none;
     z-index: 10;
+    line-height: 110%;
 
     @media (min-width: 550px) {
       display: block;
@@ -39,7 +41,8 @@
   .full {
     text-align: center;
     font-size: 120%;
-    padding-bottom: 3%;
+    padding-bottom: 1em;
+    line-height: 100%;
 
     h1 {
       font-size: 275%;

@@ -125,20 +125,20 @@ body {
 /* line 7, ../sass/components/_media-grid.scss */
 .media-grid article {
   width: 100%;
-  padding: 1% 0;
+  padding: .5em 0;
 }
 @media (min-width: 550px) and (max-width: 960px) {
   /* line 7, ../sass/components/_media-grid.scss */
   .media-grid article {
     width: 45%;
-    padding: 1%;
+    padding: .5em;
   }
 }
 @media (min-width: 960px) {
   /* line 7, ../sass/components/_media-grid.scss */
   .media-grid article {
     width: 30%;
-    padding: 1%;
+    padding: .5em;
   }
 }
 /* line 22, ../sass/components/_media-grid.scss */
@@ -423,7 +423,8 @@ body {
   padding: .1em;
   background: #d8bca7;
   color: #5d4f43;
-  font-family: Raleway;
+  font-family: Lato;
+  font-weight: 200;
   text-align: center;
   position: relative;
 }
@@ -433,48 +434,50 @@ body {
     text-align: left;
   }
 }
-/* line 16, ../sass/components/_FAQ.scss */
+/* line 17, ../sass/components/_FAQ.scss */
 #faq article {
   z-index: 10;
 }
-/* line 20, ../sass/components/_FAQ.scss */
+/* line 21, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 200%;
   padding-bottom: .4em;
 }
-/* line 26, ../sass/components/_FAQ.scss */
+/* line 27, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
   display: none;
   z-index: 10;
+  line-height: 110%;
 }
 @media (min-width: 550px) {
-  /* line 26, ../sass/components/_FAQ.scss */
+  /* line 27, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 39, ../sass/components/_FAQ.scss */
+/* line 41, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
-  padding-bottom: 3%;
+  padding-bottom: 1em;
+  line-height: 100%;
 }
-/* line 44, ../sass/components/_FAQ.scss */
+/* line 47, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 49, ../sass/components/_FAQ.scss */
+/* line 52, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 39, ../sass/components/_FAQ.scss */
+  /* line 41, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
