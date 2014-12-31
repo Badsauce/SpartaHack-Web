@@ -47,8 +47,13 @@
       }
 
       i {
+        display: flex;
         background-color: #a89483;
         padding: .4em .5em;
+
+        &:before {
+          margin: auto;
+        }
       }
     }
   }
