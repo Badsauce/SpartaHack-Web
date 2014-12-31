@@ -16,6 +16,11 @@
 
   article {
     z-index: 10;
+
+    @media (max-width: 550px) {
+
+    }
+
   }
 
   h1 {
@@ -28,12 +33,23 @@
     }
 
     @media (max-width: 550px) {
-      padding-top: .4em;
+      display: flex;
+      justify-content: space-between;
       //border: 3px solid $faqText;
       //border-radius: 6px;
+      padding: 0;
       margin: 0 5%;
-      color: $faqBackground;
-      background-color: $lightBrown;
+      color: $lightBrown;
+      background-color: #c1aa96;
+
+      span{
+        padding: .4em;
+      }
+
+      i {
+        background-color: #a89483;
+        padding: .4em .5em;
+      }
     }
   }
 

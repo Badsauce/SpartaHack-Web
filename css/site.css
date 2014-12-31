@@ -438,34 +438,51 @@ body {
 #faq article {
   z-index: 10;
 }
-/* line 21, ../sass/components/_FAQ.scss */
+/* line 26, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 135%;
   padding-bottom: .4em;
 }
 @media (min-width: 550px) {
-  /* line 21, ../sass/components/_FAQ.scss */
+  /* line 26, ../sass/components/_FAQ.scss */
   #faq h1 {
     font-size: 200%;
   }
 }
 @media (max-width: 550px) {
-  /* line 21, ../sass/components/_FAQ.scss */
+  /* line 26, ../sass/components/_FAQ.scss */
   #faq h1 {
-    padding-top: .4em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
     margin: 0 5%;
-    color: #d8bca7;
-    background-color: #5d4f43;
+    color: #5d4f43;
+    background-color: #c1aa96;
+  }
+  /* line 45, ../sass/components/_FAQ.scss */
+  #faq h1 span {
+    padding: .4em;
+  }
+  /* line 49, ../sass/components/_FAQ.scss */
+  #faq h1 i {
+    background-color: #a89483;
+    padding: .4em .5em;
   }
 }
 @media (min-width: 550px) {
-  /* line 40, ../sass/components/_FAQ.scss */
+  /* line 56, ../sass/components/_FAQ.scss */
   #faq i {
     display: none;
   }
 }
-/* line 48, ../sass/components/_FAQ.scss */
+/* line 64, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
@@ -474,31 +491,31 @@ body {
   line-height: 110%;
 }
 @media (min-width: 550px) {
-  /* line 48, ../sass/components/_FAQ.scss */
+  /* line 64, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 62, ../sass/components/_FAQ.scss */
+/* line 78, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 1em;
   line-height: 100%;
 }
-/* line 68, ../sass/components/_FAQ.scss */
+/* line 84, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 73, ../sass/components/_FAQ.scss */
+/* line 89, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 62, ../sass/components/_FAQ.scss */
+  /* line 78, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;

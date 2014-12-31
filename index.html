@@ -94,7 +94,7 @@
 
             <article>
               <h1>
-                When is SpartaHack?
+                <span>When is SpartaHack?</span>
                 <i class="fa fa-plus"></i>
               </h1>
               <p>
@@ -247,7 +247,7 @@
         <script>
           $('#faq article h1').click(function() {
             $(this).next().slideToggle();
-            $(this).children().slideToggle();
+            $(this).children("i").toggleClass("fa-plus").toggleClass("fa-minus");
           });
         </script>
         <script src="js/plugins.js"></script>
