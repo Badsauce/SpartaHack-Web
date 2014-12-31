@@ -26,6 +26,12 @@
     @media (min-width: 550px) {
       font-size: 200%;
     }
+
+    @media (max-width: 550px) {
+      padding-top: .4em;
+      border: 3px solid $faqText;
+      border-radius: 6px;
+    }
   }
 
   i {
