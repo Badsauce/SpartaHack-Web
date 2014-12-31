@@ -441,10 +441,20 @@ body {
 /* line 21, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
-  font-size: 200%;
+  font-size: 150%;
   padding-bottom: .4em;
 }
-/* line 27, ../sass/components/_FAQ.scss */
+@media (min-width: 550px) {
+  /* line 21, ../sass/components/_FAQ.scss */
+  #faq h1 {
+    font-size: 200%;
+  }
+}
+/* line 31, ../sass/components/_FAQ.scss */
+#faq i {
+  display: block;
+}
+/* line 35, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
@@ -453,31 +463,31 @@ body {
   line-height: 110%;
 }
 @media (min-width: 550px) {
-  /* line 27, ../sass/components/_FAQ.scss */
+  /* line 35, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 41, ../sass/components/_FAQ.scss */
+/* line 49, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 1em;
   line-height: 100%;
 }
-/* line 47, ../sass/components/_FAQ.scss */
+/* line 55, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 52, ../sass/components/_FAQ.scss */
+/* line 60, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 41, ../sass/components/_FAQ.scss */
+  /* line 49, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
@@ -489,8 +499,9 @@ body {
   background: #3f332b;
   position: relative;
   padding: 35vh 0;
+  overflow: hidden;
 }
-/* line 7, ../sass/components/_sponsors.scss */
+/* line 8, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
   font-size: 500%;
@@ -500,11 +511,11 @@ body {
   padding-bottom: 2em;
   color: #d8bca7;
 }
-/* line 17, ../sass/components/_sponsors.scss */
+/* line 18, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 21, ../sass/components/_sponsors.scss */
+/* line 22, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -512,20 +523,20 @@ body {
           align-items: flex-end;
 }
 
-/* line 26, ../sass/components/_sponsors.scss */
+/* line 27, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
   margin-top: -28%;
 }
 
-/* line 31, ../sass/components/_sponsors.scss */
+/* line 32, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
   width: 60%;
   margin: auto;
 }
 
-/* line 37, ../sass/components/_sponsors.scss */
+/* line 38, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: 0;

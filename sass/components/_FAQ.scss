@@ -20,8 +20,16 @@
 
   h1 {
     text-transform: capitalize;
-    font-size: 200%;
+    font-size: 150%;
     padding-bottom: .4em;
+
+    @media (min-width: 550px) {
+      font-size: 200%;
+    }
+  }
+
+  i {
+    display: block;
   }
 
   p {
