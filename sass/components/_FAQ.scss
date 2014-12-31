@@ -8,6 +8,13 @@
   text-align: center;
   position: relative;
 
+  a {
+    color: #a86b28;
+
+    &:visited {
+      color: #7e562d;
+    }
+  }
 
   @media (min-width: 550px) {
 

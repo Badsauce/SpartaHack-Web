@@ -428,30 +428,38 @@ body {
   text-align: center;
   position: relative;
 }
+/* line 11, ../sass/components/_FAQ.scss */
+#faq a {
+  color: #a86b28;
+}
+/* line 14, ../sass/components/_FAQ.scss */
+#faq a:visited {
+  color: #7e562d;
+}
 @media (min-width: 550px) {
   /* line 1, ../sass/components/_FAQ.scss */
   #faq {
     text-align: left;
   }
 }
-/* line 17, ../sass/components/_FAQ.scss */
+/* line 24, ../sass/components/_FAQ.scss */
 #faq article {
   z-index: 10;
 }
-/* line 26, ../sass/components/_FAQ.scss */
+/* line 33, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 135%;
   padding-bottom: .4em;
 }
 @media (min-width: 550px) {
-  /* line 26, ../sass/components/_FAQ.scss */
+  /* line 33, ../sass/components/_FAQ.scss */
   #faq h1 {
     font-size: 200%;
   }
 }
 @media (max-width: 550px) {
-  /* line 26, ../sass/components/_FAQ.scss */
+  /* line 33, ../sass/components/_FAQ.scss */
   #faq h1 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -466,12 +474,12 @@ body {
     color: #5d4f43;
     background-color: #c1aa96;
   }
-  /* line 45, ../sass/components/_FAQ.scss */
+  /* line 52, ../sass/components/_FAQ.scss */
   #faq h1 span {
     padding: .4em;
     width: 80%;
   }
-  /* line 50, ../sass/components/_FAQ.scss */
+  /* line 57, ../sass/components/_FAQ.scss */
   #faq h1 i {
     width: 10%;
     display: -webkit-box;
@@ -481,18 +489,18 @@ body {
     background-color: #a89483;
     padding: .4em .5em;
   }
-  /* line 56, ../sass/components/_FAQ.scss */
+  /* line 63, ../sass/components/_FAQ.scss */
   #faq h1 i:before {
     margin: auto;
   }
 }
 @media (min-width: 550px) {
-  /* line 63, ../sass/components/_FAQ.scss */
+  /* line 70, ../sass/components/_FAQ.scss */
   #faq i {
     display: none;
   }
 }
-/* line 71, ../sass/components/_FAQ.scss */
+/* line 78, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
@@ -501,31 +509,31 @@ body {
   line-height: 110%;
 }
 @media (min-width: 550px) {
-  /* line 71, ../sass/components/_FAQ.scss */
+  /* line 78, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 85, ../sass/components/_FAQ.scss */
+/* line 92, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 1em;
   line-height: 100%;
 }
-/* line 91, ../sass/components/_FAQ.scss */
+/* line 98, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 96, ../sass/components/_FAQ.scss */
+/* line 103, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 85, ../sass/components/_FAQ.scss */
+  /* line 92, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
@@ -580,6 +588,24 @@ body {
   left: 0;
   bottom: 5%;
   width: 100%;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer {
+  text-align: center;
+  padding: .2em;
+}
+/* line 5, ../sass/components/_footer.scss */
+.footer .fa-rocket {
+  color: #bdc3c7;
+}
+/* line 9, ../sass/components/_footer.scss */
+.footer a {
+  color: #F7E8DE;
+}
+/* line 12, ../sass/components/_footer.scss */
+.footer a:visited {
+  color: #5d4f43;
 }
 
 /* line 2, ../sass/components/_fontfixes.scss */
