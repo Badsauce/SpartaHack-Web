@@ -20,7 +20,7 @@
 
   h1 {
     text-transform: capitalize;
-    font-size: 150%;
+    font-size: 135%;
     padding-bottom: .4em;
 
     @media (min-width: 550px) {
@@ -30,6 +30,10 @@
 
   i {
     display: block;
+
+    @media (min-width: 550px) {
+      display: none;
+    }
   }
 
   p {

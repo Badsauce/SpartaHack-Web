@@ -441,7 +441,7 @@ body {
 /* line 21, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
-  font-size: 150%;
+  font-size: 135%;
   padding-bottom: .4em;
 }
 @media (min-width: 550px) {
@@ -454,7 +454,13 @@ body {
 #faq i {
   display: block;
 }
-/* line 35, ../sass/components/_FAQ.scss */
+@media (min-width: 550px) {
+  /* line 31, ../sass/components/_FAQ.scss */
+  #faq i {
+    display: none;
+  }
+}
+/* line 39, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
@@ -463,31 +469,31 @@ body {
   line-height: 110%;
 }
 @media (min-width: 550px) {
-  /* line 35, ../sass/components/_FAQ.scss */
+  /* line 39, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 49, ../sass/components/_FAQ.scss */
+/* line 53, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 1em;
   line-height: 100%;
 }
-/* line 55, ../sass/components/_FAQ.scss */
+/* line 59, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 60, ../sass/components/_FAQ.scss */
+/* line 64, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 49, ../sass/components/_FAQ.scss */
+  /* line 53, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
