@@ -542,47 +542,52 @@ body {
 
 /* line 1, ../sass/components/_sponsors.scss */
 #sponsors {
-  background: #3f332b;
+  background: #3498db;
   position: relative;
-  padding: 35vh 0;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
   overflow: hidden;
 }
-/* line 8, ../sass/components/_sponsors.scss */
+/* line 9, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
   font-size: 500%;
   font-family: PhantLight;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 0;
   padding-bottom: 2em;
-  color: #d8bca7;
+  color: #3f332b;
 }
-/* line 18, ../sass/components/_sponsors.scss */
+/* line 19, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 22, ../sass/components/_sponsors.scss */
+/* line 23, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-/* line 27, ../sass/components/_sponsors.scss */
+/* line 30, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
-  margin-top: -28%;
+  margin-top: -23%;
 }
 
-/* line 32, ../sass/components/_sponsors.scss */
+/* line 35, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 
-/* line 38, ../sass/components/_sponsors.scss */
+/* line 41, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: 0;

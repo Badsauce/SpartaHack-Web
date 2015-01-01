@@ -1,9 +1,16 @@
+//whites
 $cream: #F7E8DE;
 $mutedCream: rgba(247,232,222, .3);
+$butter: #d8bca7;
+
+//browns
 $mediumBrown: #433830;
 $lightBrown: #5d4f43;
-$peterRiver: #3498db;
 $chocolateSea: #3f332b;
+
+//blues
+$peterRiver: #3498db;
+$belizeHole: #2980b9;
 
 
 $heroBackground: $mediumBrown;
@@ -20,6 +27,8 @@ $buttonText: $mediumBrown;
 $faqBackground: #d8bca7;
 $faqText: $lightBrown;
 
-$sponsorBackground: $chocolateSea;
+$sponsorBackground: $peterRiver;
 $sponsorForeground: #939599;
-$sponsorText: #d8bca7;
+$sponsorText: $chocolateSea;
+
+$footer: $belizeHole;

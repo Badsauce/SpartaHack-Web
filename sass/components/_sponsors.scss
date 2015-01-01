@@ -1,7 +1,8 @@
 #sponsors {
   background: $sponsorBackground;
   position: relative;
-  padding: 35vh 0;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
   overflow: hidden;
 
 
@@ -9,7 +10,7 @@
     text-align: center;
     font-size: 500%;
     font-family: PhantLight;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 0;
     padding-bottom: 2em;
     color: $sponsorText;
@@ -21,17 +22,19 @@
 
   .media-grid {
     align-items: flex-end;
+    justify-content: center;
   }
+
 }
 
 .ship {
   width: 100%;
-  margin-top: -28%;
+  margin-top: -23%;
 }
 
 .sponsor-logo {
   display: block;
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 
