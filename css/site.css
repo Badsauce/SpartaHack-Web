@@ -147,6 +147,66 @@ body {
   padding: 1em;
 }
 
+@-webkit-keyframes "pulse_animation" {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes "pulse_animation" {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/* line 9, ../sass/components/_animations.scss */
+.pulse:hover {
+  -webkit-animation-name: 'pulse_animation';
+          animation-name: 'pulse_animation';
+  -webkit-animation-duration: 2500ms;
+          animation-duration: 2500ms;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
 /* line 1, ../sass/components/_hero.scss */
 #hero {
   display: -webkit-box;
@@ -216,21 +276,26 @@ body {
 #hero a:hover {
   color: #F7E8DE;
 }
-/* line 70, ../sass/components/_hero.scss */
+/* line 67, ../sass/components/_hero.scss */
+#hero a.anchorLink {
+  display: block;
+  font-size: 350%;
+}
+/* line 75, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 76, ../sass/components/_hero.scss */
+/* line 81, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 81, ../sass/components/_hero.scss */
+/* line 86, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 86, ../sass/components/_hero.scss */
+/* line 91, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -242,14 +307,14 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 99, ../sass/components/_hero.scss */
+/* line 104, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 106, ../sass/components/_hero.scss */
+/* line 111, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #433830;
@@ -257,7 +322,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 113, ../sass/components/_hero.scss */
+/* line 118, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #433830;
@@ -265,14 +330,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 120, ../sass/components/_hero.scss */
+/* line 125, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 127, ../sass/components/_hero.scss */
+/* line 132, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #433830;
@@ -286,7 +351,7 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   appearance: none;
 }
-/* line 142, ../sass/components/_hero.scss */
+/* line 147, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 1em;
 }

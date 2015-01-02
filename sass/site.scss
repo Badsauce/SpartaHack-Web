@@ -1,12 +1,16 @@
 @import "compass/reset";
 @import 'compass/utilities/general/clearfix';
 
+//Design Variables
 @import 'components/colorScheme';
 @import 'components/fonts';
 
 @import 'components/base';
 
+//Modules
 @import 'components/media-grid';
+@import 'components/animations';
+
 
 @import 'components/hero';
 @import 'components/heroBackdrop';
