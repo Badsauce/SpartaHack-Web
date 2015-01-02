@@ -134,7 +134,7 @@
               <p>
                 We love your eagerness, but our registration is not quite ready
                 to be released to the world. However, feel free to join our
-                <a href="#hero">mailing list</a>
+                <a href="#hero" class="anchorLink">mailing list</a>
                 to get notified when you can sign yourself up.
               </p>
             </article>
@@ -312,6 +312,13 @@
           $('#faq article h1').click(function() {
             $(this).next().slideToggle();
             $(this).children("i").toggleClass("fa-plus").toggleClass("fa-minus");
+          });
+
+          $('.anchorLink').click(function(){
+            $('html, body').animate({
+              scrollTop: $( $(this).attr('href') ).offset().top
+            }, 500);
+            return false;
           });
         </script>
         <script src="js/plugins.js"></script>
