@@ -78,7 +78,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 8, ../sass/components/_base.scss */
 .backdrop {
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   position: absolute;
@@ -248,6 +248,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: 100vh;
   background: #433830;
   text-align: center;
@@ -255,29 +256,29 @@ body {
   letter-spacing: .05em;
   font-family: PhantLight;
 }
-/* line 14, ../sass/components/_hero.scss */
+/* line 15, ../sass/components/_hero.scss */
 #hero h1, #hero h2, #hero p {
   margin: auto;
 }
-/* line 18, ../sass/components/_hero.scss */
+/* line 19, ../sass/components/_hero.scss */
 #hero h1, #hero h2 {
   color: #F7E8DE;
 }
-/* line 22, ../sass/components/_hero.scss */
+/* line 23, ../sass/components/_hero.scss */
 #hero h1 {
   width: 60%;
   min-width: 300px;
   font-size: 500%;
   letter-spacing: .15em;
 }
-/* line 29, ../sass/components/_hero.scss */
+/* line 30, ../sass/components/_hero.scss */
 #hero h2 {
   width: 35%;
   min-width: 200px;
   font-size: 250%;
   letter-spacing: .05em;
 }
-/* line 36, ../sass/components/_hero.scss */
+/* line 37, ../sass/components/_hero.scss */
 #hero p {
   width: 20%;
   min-width: 140px;
@@ -287,19 +288,19 @@ body {
   font-family: Raleway;
   color: #F7E8DE;
 }
-/* line 46, ../sass/components/_hero.scss */
+/* line 47, ../sass/components/_hero.scss */
 #hero .logo {
   margin-top: 10vh;
   min-width: 185px;
   width: 35%;
 }
 @media (min-width: 600px) {
-  /* line 46, ../sass/components/_hero.scss */
+  /* line 47, ../sass/components/_hero.scss */
   #hero .logo {
     margin-top: 5vh;
   }
 }
-/* line 56, ../sass/components/_hero.scss */
+/* line 57, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
   color: #F7E8DE;
@@ -307,31 +308,31 @@ body {
   text-transform: lowercase;
   font-size: 150%;
 }
-/* line 63, ../sass/components/_hero.scss */
+/* line 64, ../sass/components/_hero.scss */
 #hero a:hover {
   color: #F7E8DE;
 }
-/* line 67, ../sass/components/_hero.scss */
+/* line 68, ../sass/components/_hero.scss */
 #hero a.anchorLink {
   display: block;
   font-size: 350%;
   margin-top: 1em;
 }
-/* line 76, ../sass/components/_hero.scss */
+/* line 77, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 82, ../sass/components/_hero.scss */
+/* line 83, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 87, ../sass/components/_hero.scss */
+/* line 88, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 92, ../sass/components/_hero.scss */
+/* line 93, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -343,14 +344,14 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 105, ../sass/components/_hero.scss */
+/* line 106, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 112, ../sass/components/_hero.scss */
+/* line 113, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #433830;
@@ -358,7 +359,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 119, ../sass/components/_hero.scss */
+/* line 120, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #433830;
@@ -366,14 +367,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 126, ../sass/components/_hero.scss */
+/* line 127, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 133, ../sass/components/_hero.scss */
+/* line 134, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #433830;
@@ -387,17 +388,21 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   appearance: none;
 }
-/* line 148, ../sass/components/_hero.scss */
+/* line 149, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 1em;
 }
 
 /* line 2, ../sass/components/_heroBackdrop.scss */
 #hero .backdrop {
+  -webkit-perspective: 1px;
+          perspective: 1px;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
-/* line 7, ../sass/components/_heroBackdrop.scss */
+/* line 10, ../sass/components/_heroBackdrop.scss */
 .island {
   width: 100%;
   position: absolute;
@@ -406,13 +411,13 @@ body {
   z-index: 4;
 }
 @media (min-width: 600px) {
-  /* line 7, ../sass/components/_heroBackdrop.scss */
+  /* line 10, ../sass/components/_heroBackdrop.scss */
   .island {
     top: 25vh;
   }
 }
 
-/* line 19, ../sass/components/_heroBackdrop.scss */
+/* line 22, ../sass/components/_heroBackdrop.scss */
 .backfog {
   width: 100%;
   position: absolute;
@@ -421,13 +426,13 @@ body {
   z-index: 1;
 }
 @media (min-width: 600px) {
-  /* line 19, ../sass/components/_heroBackdrop.scss */
+  /* line 22, ../sass/components/_heroBackdrop.scss */
   .backfog {
     top: 45vh;
   }
 }
 
-/* line 31, ../sass/components/_heroBackdrop.scss */
+/* line 34, ../sass/components/_heroBackdrop.scss */
 .light-back-cloud {
   width: 35%;
   position: absolute;
@@ -436,7 +441,7 @@ body {
   z-index: 1;
 }
 
-/* line 39, ../sass/components/_heroBackdrop.scss */
+/* line 42, ../sass/components/_heroBackdrop.scss */
 .dark-back-cloud {
   position: absolute;
   width: 35%;
@@ -445,13 +450,13 @@ body {
   z-index: 1;
 }
 
-/* line 47, ../sass/components/_heroBackdrop.scss */
+/* line 50, ../sass/components/_heroBackdrop.scss */
 .cloud1, .cloud2 {
   opacity: 0.8;
   z-index: 5;
 }
 
-/* line 52, ../sass/components/_heroBackdrop.scss */
+/* line 55, ../sass/components/_heroBackdrop.scss */
 .cloud1 {
   position: absolute;
   width: 85%;
@@ -460,13 +465,13 @@ body {
   display: none;
 }
 @media (min-width: 600px) {
-  /* line 52, ../sass/components/_heroBackdrop.scss */
+  /* line 55, ../sass/components/_heroBackdrop.scss */
   .cloud1 {
     display: block;
   }
 }
 
-/* line 64, ../sass/components/_heroBackdrop.scss */
+/* line 67, ../sass/components/_heroBackdrop.scss */
 .cloud2 {
   position: absolute;
   width: 85%;
@@ -474,13 +479,13 @@ body {
   left: 30%;
 }
 @media (min-width: 600px) {
-  /* line 64, ../sass/components/_heroBackdrop.scss */
+  /* line 67, ../sass/components/_heroBackdrop.scss */
   .cloud2 {
     top: 70vh;
   }
 }
 
-/* line 75, ../sass/components/_heroBackdrop.scss */
+/* line 78, ../sass/components/_heroBackdrop.scss */
 .lil-cloud {
   position: absolute;
   width: 45%;
@@ -489,14 +494,15 @@ body {
   z-index: 6;
 }
 @media (min-width: 600px) {
-  /* line 75, ../sass/components/_heroBackdrop.scss */
+  /* line 78, ../sass/components/_heroBackdrop.scss */
   .lil-cloud {
     top: 60vh;
   }
 }
 
-/* line 87, ../sass/components/_heroBackdrop.scss */
+/* line 90, ../sass/components/_heroBackdrop.scss */
 .faq-head {
+  display: none;
   position: absolute;
   width: 120%;
   bottom: -1vh;
@@ -504,19 +510,46 @@ body {
   z-index: 8;
 }
 @media (min-width: 600px) {
-  /* line 87, ../sass/components/_heroBackdrop.scss */
+  /* line 90, ../sass/components/_heroBackdrop.scss */
   .faq-head {
     bottom: -10vh;
   }
 }
 
-/* line 99, ../sass/components/_heroBackdrop.scss */
+/* line 103, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
   width: 110%;
   top: -1vh;
   left: -5%;
   z-index: 8;
+}
+
+/* line 111, ../sass/components/_heroBackdrop.scss */
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 119, ../sass/components/_heroBackdrop.scss */
+.backfog-layer {
+  -webkit-transform: translateZ(-3px) scale(4);
+          transform: translateZ(-3px) scale(4);
+}
+
+/* line 123, ../sass/components/_heroBackdrop.scss */
+.island-layer {
+  -webkit-transform: translateZ(-2px) scale(3);
+          transform: translateZ(-2px) scale(3);
+}
+
+/* line 127, ../sass/components/_heroBackdrop.scss */
+.cloud-layer {
+  -webkit-transform: translateZ(-1px) scale(2);
+          transform: translateZ(-1px) scale(2);
 }
 
 /* line 1, ../sass/components/_FAQ.scss */

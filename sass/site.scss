@@ -1,5 +1,10 @@
+//Compass Goodies
 @import "compass/reset";
 @import 'compass/utilities/general/clearfix';
+@import "compass/css3/transform";
+
+//Vendor Files
+@import 'vendor/parallax';
 
 //Design Variables
 @import 'components/colorScheme';
@@ -10,7 +15,6 @@
 //Modules
 @import 'components/media-grid';
 @import 'components/animations';
-
 
 @import 'components/hero';
 @import 'components/heroBackdrop';
