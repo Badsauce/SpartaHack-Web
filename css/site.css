@@ -398,11 +398,10 @@ body {
   -webkit-perspective: 1px;
           perspective: 1px;
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
-/* line 10, ../sass/components/_heroBackdrop.scss */
+/* line 9, ../sass/components/_heroBackdrop.scss */
 .island {
   width: 100%;
   position: absolute;
@@ -411,13 +410,13 @@ body {
   z-index: 4;
 }
 @media (min-width: 600px) {
-  /* line 10, ../sass/components/_heroBackdrop.scss */
+  /* line 9, ../sass/components/_heroBackdrop.scss */
   .island {
     top: 25vh;
   }
 }
 
-/* line 22, ../sass/components/_heroBackdrop.scss */
+/* line 21, ../sass/components/_heroBackdrop.scss */
 .backfog {
   width: 100%;
   position: absolute;
@@ -426,13 +425,13 @@ body {
   z-index: 1;
 }
 @media (min-width: 600px) {
-  /* line 22, ../sass/components/_heroBackdrop.scss */
+  /* line 21, ../sass/components/_heroBackdrop.scss */
   .backfog {
     top: 45vh;
   }
 }
 
-/* line 34, ../sass/components/_heroBackdrop.scss */
+/* line 33, ../sass/components/_heroBackdrop.scss */
 .light-back-cloud {
   width: 35%;
   position: absolute;
@@ -441,7 +440,7 @@ body {
   z-index: 1;
 }
 
-/* line 42, ../sass/components/_heroBackdrop.scss */
+/* line 41, ../sass/components/_heroBackdrop.scss */
 .dark-back-cloud {
   position: absolute;
   width: 35%;
@@ -450,13 +449,13 @@ body {
   z-index: 1;
 }
 
-/* line 50, ../sass/components/_heroBackdrop.scss */
+/* line 49, ../sass/components/_heroBackdrop.scss */
 .cloud1, .cloud2 {
   opacity: 0.8;
   z-index: 5;
 }
 
-/* line 55, ../sass/components/_heroBackdrop.scss */
+/* line 54, ../sass/components/_heroBackdrop.scss */
 .cloud1 {
   position: absolute;
   width: 85%;
@@ -465,13 +464,13 @@ body {
   display: none;
 }
 @media (min-width: 600px) {
-  /* line 55, ../sass/components/_heroBackdrop.scss */
+  /* line 54, ../sass/components/_heroBackdrop.scss */
   .cloud1 {
     display: block;
   }
 }
 
-/* line 67, ../sass/components/_heroBackdrop.scss */
+/* line 66, ../sass/components/_heroBackdrop.scss */
 .cloud2 {
   position: absolute;
   width: 85%;
@@ -479,13 +478,13 @@ body {
   left: 30%;
 }
 @media (min-width: 600px) {
-  /* line 67, ../sass/components/_heroBackdrop.scss */
+  /* line 66, ../sass/components/_heroBackdrop.scss */
   .cloud2 {
     top: 70vh;
   }
 }
 
-/* line 78, ../sass/components/_heroBackdrop.scss */
+/* line 77, ../sass/components/_heroBackdrop.scss */
 .lil-cloud {
   position: absolute;
   width: 45%;
@@ -494,15 +493,14 @@ body {
   z-index: 6;
 }
 @media (min-width: 600px) {
-  /* line 78, ../sass/components/_heroBackdrop.scss */
+  /* line 77, ../sass/components/_heroBackdrop.scss */
   .lil-cloud {
     top: 60vh;
   }
 }
 
-/* line 90, ../sass/components/_heroBackdrop.scss */
+/* line 89, ../sass/components/_heroBackdrop.scss */
 .faq-head {
-  display: none;
   position: absolute;
   width: 120%;
   bottom: -1vh;
@@ -510,13 +508,13 @@ body {
   z-index: 8;
 }
 @media (min-width: 600px) {
-  /* line 90, ../sass/components/_heroBackdrop.scss */
+  /* line 89, ../sass/components/_heroBackdrop.scss */
   .faq-head {
     bottom: -10vh;
   }
 }
 
-/* line 103, ../sass/components/_heroBackdrop.scss */
+/* line 101, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
   width: 110%;
@@ -525,7 +523,7 @@ body {
   z-index: 8;
 }
 
-/* line 111, ../sass/components/_heroBackdrop.scss */
+/* line 109, ../sass/components/_heroBackdrop.scss */
 .parallax-layer {
   position: absolute;
   top: 0;
@@ -534,19 +532,19 @@ body {
   left: 0;
 }
 
-/* line 119, ../sass/components/_heroBackdrop.scss */
+/* line 117, ../sass/components/_heroBackdrop.scss */
 .backfog-layer {
   -webkit-transform: translateZ(-3px) scale(4);
           transform: translateZ(-3px) scale(4);
 }
 
-/* line 123, ../sass/components/_heroBackdrop.scss */
+/* line 121, ../sass/components/_heroBackdrop.scss */
 .island-layer {
   -webkit-transform: translateZ(-2px) scale(3);
           transform: translateZ(-2px) scale(3);
 }
 
-/* line 127, ../sass/components/_heroBackdrop.scss */
+/* line 125, ../sass/components/_heroBackdrop.scss */
 .cloud-layer {
   -webkit-transform: translateZ(-1px) scale(2);
           transform: translateZ(-1px) scale(2);

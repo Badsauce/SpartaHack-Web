@@ -2,8 +2,7 @@
   .backdrop{
     perspective: 1px;
     height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
   }
 }
 
@@ -88,7 +87,6 @@
 }
 
 .faq-head {
-  display: none;
   position: absolute;
   width: 120%;
   bottom: -1vh;
