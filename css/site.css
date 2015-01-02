@@ -395,13 +395,11 @@ body {
 
 /* line 2, ../sass/components/_heroBackdrop.scss */
 #hero .backdrop {
-  -webkit-perspective: 1px;
-          perspective: 1px;
   height: 100vh;
   overflow: hidden;
 }
 
-/* line 9, ../sass/components/_heroBackdrop.scss */
+/* line 8, ../sass/components/_heroBackdrop.scss */
 .island {
   width: 100%;
   position: absolute;
@@ -410,13 +408,13 @@ body {
   z-index: 4;
 }
 @media (min-width: 600px) {
-  /* line 9, ../sass/components/_heroBackdrop.scss */
+  /* line 8, ../sass/components/_heroBackdrop.scss */
   .island {
     top: 25vh;
   }
 }
 
-/* line 21, ../sass/components/_heroBackdrop.scss */
+/* line 20, ../sass/components/_heroBackdrop.scss */
 .backfog {
   width: 100%;
   position: absolute;
@@ -425,13 +423,13 @@ body {
   z-index: 1;
 }
 @media (min-width: 600px) {
-  /* line 21, ../sass/components/_heroBackdrop.scss */
+  /* line 20, ../sass/components/_heroBackdrop.scss */
   .backfog {
     top: 45vh;
   }
 }
 
-/* line 33, ../sass/components/_heroBackdrop.scss */
+/* line 32, ../sass/components/_heroBackdrop.scss */
 .light-back-cloud {
   width: 35%;
   position: absolute;
@@ -440,7 +438,7 @@ body {
   z-index: 1;
 }
 
-/* line 41, ../sass/components/_heroBackdrop.scss */
+/* line 40, ../sass/components/_heroBackdrop.scss */
 .dark-back-cloud {
   position: absolute;
   width: 35%;
@@ -449,13 +447,13 @@ body {
   z-index: 1;
 }
 
-/* line 49, ../sass/components/_heroBackdrop.scss */
+/* line 48, ../sass/components/_heroBackdrop.scss */
 .cloud1, .cloud2 {
   opacity: 0.8;
   z-index: 5;
 }
 
-/* line 54, ../sass/components/_heroBackdrop.scss */
+/* line 53, ../sass/components/_heroBackdrop.scss */
 .cloud1 {
   position: absolute;
   width: 85%;
@@ -464,13 +462,13 @@ body {
   display: none;
 }
 @media (min-width: 600px) {
-  /* line 54, ../sass/components/_heroBackdrop.scss */
+  /* line 53, ../sass/components/_heroBackdrop.scss */
   .cloud1 {
     display: block;
   }
 }
 
-/* line 66, ../sass/components/_heroBackdrop.scss */
+/* line 65, ../sass/components/_heroBackdrop.scss */
 .cloud2 {
   position: absolute;
   width: 85%;
@@ -478,13 +476,13 @@ body {
   left: 30%;
 }
 @media (min-width: 600px) {
-  /* line 66, ../sass/components/_heroBackdrop.scss */
+  /* line 65, ../sass/components/_heroBackdrop.scss */
   .cloud2 {
     top: 70vh;
   }
 }
 
-/* line 77, ../sass/components/_heroBackdrop.scss */
+/* line 76, ../sass/components/_heroBackdrop.scss */
 .lil-cloud {
   position: absolute;
   width: 45%;
@@ -493,13 +491,13 @@ body {
   z-index: 6;
 }
 @media (min-width: 600px) {
-  /* line 77, ../sass/components/_heroBackdrop.scss */
+  /* line 76, ../sass/components/_heroBackdrop.scss */
   .lil-cloud {
     top: 60vh;
   }
 }
 
-/* line 89, ../sass/components/_heroBackdrop.scss */
+/* line 88, ../sass/components/_heroBackdrop.scss */
 .faq-head {
   position: absolute;
   width: 120%;
@@ -508,46 +506,19 @@ body {
   z-index: 8;
 }
 @media (min-width: 600px) {
-  /* line 89, ../sass/components/_heroBackdrop.scss */
+  /* line 88, ../sass/components/_heroBackdrop.scss */
   .faq-head {
     bottom: -10vh;
   }
 }
 
-/* line 101, ../sass/components/_heroBackdrop.scss */
+/* line 100, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
   width: 110%;
   top: -1vh;
   left: -5%;
   z-index: 8;
-}
-
-/* line 109, ../sass/components/_heroBackdrop.scss */
-.parallax-layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* line 117, ../sass/components/_heroBackdrop.scss */
-.backfog-layer {
-  -webkit-transform: translateZ(-3px) scale(4);
-          transform: translateZ(-3px) scale(4);
-}
-
-/* line 121, ../sass/components/_heroBackdrop.scss */
-.island-layer {
-  -webkit-transform: translateZ(-2px) scale(3);
-          transform: translateZ(-2px) scale(3);
-}
-
-/* line 125, ../sass/components/_heroBackdrop.scss */
-.cloud-layer {
-  -webkit-transform: translateZ(-1px) scale(2);
-          transform: translateZ(-1px) scale(2);
 }
 
 /* line 1, ../sass/components/_FAQ.scss */
