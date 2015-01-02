@@ -13,3 +13,13 @@
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
+
+@keyframes 'wiggle'{
+  0%{transform:rotate(3deg);}
+  50%{transform:rotate(-3deg);}
+  100%{transform:rotate(3deg);}
+}
+
+.wiggle:hover {
+  animation:'wiggle' .3s 2;
+}
