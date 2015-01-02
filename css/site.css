@@ -653,7 +653,7 @@ body {
 /* line 8, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
-  font-size: 450%;
+  font-size: 350%;
   font-family: PhantLight;
   text-transform: uppercase;
   padding: 0;
@@ -712,17 +712,19 @@ body {
 /* line 1, ../sass/components/_footer.scss */
 .footer {
   text-align: center;
-  padding: .2em;
+  padding: .2em 0;
+  font-family: Lato;
+  font-weight: 100;
 }
-/* line 5, ../sass/components/_footer.scss */
+/* line 7, ../sass/components/_footer.scss */
 .footer .fa-rocket {
   color: #bdc3c7;
 }
-/* line 9, ../sass/components/_footer.scss */
+/* line 11, ../sass/components/_footer.scss */
 .footer a {
   color: #F7E8DE;
 }
-/* line 12, ../sass/components/_footer.scss */
+/* line 14, ../sass/components/_footer.scss */
 .footer a:visited {
   color: #5d4f43;
 }
