@@ -7,12 +7,16 @@
 
   h1 {
     text-align: center;
-    font-size: 500%;
+    font-size: 450%;
     font-family: PhantLight;
     text-transform: uppercase;
     padding: 0;
     padding-bottom: 1em;
     color: $sponsorText;
+
+    @media (min-width: 550px){
+      font-size: 500%;
+    }
   }
 
   article {
