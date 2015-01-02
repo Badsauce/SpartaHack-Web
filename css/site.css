@@ -386,7 +386,7 @@ body {
   margin-left: 20px;
   height: 40px;
   background-color: rgba(247, 232, 222, 0.3);
-  appearance: none;
+  -webkit-appearance: none;
 }
 /* line 149, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
