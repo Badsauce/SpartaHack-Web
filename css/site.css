@@ -209,31 +209,31 @@ body {
 
 @-webkit-keyframes 'wiggle' {
   0% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
   50% {
-    -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
   100% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 }
 
 @keyframes 'wiggle' {
   0% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
   50% {
-    -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
   100% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 }
 /* line 23, ../sass/components/_animations.scss */
