@@ -424,7 +424,7 @@ body {
   background: #d8bca7;
   color: #5d4f43;
   font-family: Lato;
-  font-weight: 200;
+  font-weight: 100;
   text-align: center;
   position: relative;
 }
@@ -446,20 +446,20 @@ body {
 #faq article {
   z-index: 10;
 }
-/* line 33, ../sass/components/_FAQ.scss */
+/* line 28, ../sass/components/_FAQ.scss */
 #faq h1 {
   text-transform: capitalize;
   font-size: 135%;
   padding-bottom: .4em;
 }
 @media (min-width: 550px) {
-  /* line 33, ../sass/components/_FAQ.scss */
+  /* line 28, ../sass/components/_FAQ.scss */
   #faq h1 {
     font-size: 200%;
   }
 }
 @media (max-width: 550px) {
-  /* line 33, ../sass/components/_FAQ.scss */
+  /* line 28, ../sass/components/_FAQ.scss */
   #faq h1 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -474,12 +474,12 @@ body {
     color: #5d4f43;
     background-color: #c1aa96;
   }
-  /* line 52, ../sass/components/_FAQ.scss */
+  /* line 47, ../sass/components/_FAQ.scss */
   #faq h1 span {
     padding: .4em;
     width: 80%;
   }
-  /* line 57, ../sass/components/_FAQ.scss */
+  /* line 52, ../sass/components/_FAQ.scss */
   #faq h1 i {
     width: 10%;
     display: -webkit-box;
@@ -489,18 +489,18 @@ body {
     background-color: #a89483;
     padding: .4em .5em;
   }
-  /* line 63, ../sass/components/_FAQ.scss */
+  /* line 58, ../sass/components/_FAQ.scss */
   #faq h1 i:before {
     margin: auto;
   }
 }
 @media (min-width: 550px) {
-  /* line 70, ../sass/components/_FAQ.scss */
+  /* line 65, ../sass/components/_FAQ.scss */
   #faq i {
     display: none;
   }
 }
-/* line 78, ../sass/components/_FAQ.scss */
+/* line 73, ../sass/components/_FAQ.scss */
 #faq p {
   font-size: 120%;
   padding: 1em;
@@ -509,31 +509,31 @@ body {
   line-height: 110%;
 }
 @media (min-width: 550px) {
-  /* line 78, ../sass/components/_FAQ.scss */
+  /* line 73, ../sass/components/_FAQ.scss */
   #faq p {
     display: block;
     font-size: 110%;
     padding: 0;
   }
 }
-/* line 92, ../sass/components/_FAQ.scss */
+/* line 87, ../sass/components/_FAQ.scss */
 #faq .full {
   text-align: center;
   font-size: 120%;
   padding-bottom: 1em;
   line-height: 100%;
 }
-/* line 98, ../sass/components/_FAQ.scss */
+/* line 93, ../sass/components/_FAQ.scss */
 #faq .full h1 {
   font-size: 275%;
   padding-bottom: .3em;
 }
-/* line 103, ../sass/components/_FAQ.scss */
+/* line 98, ../sass/components/_FAQ.scss */
 #faq .full p {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 92, ../sass/components/_FAQ.scss */
+  /* line 87, ../sass/components/_FAQ.scss */
   #faq .full {
     font-size: 210%;
     line-height: 120%;
@@ -544,25 +544,24 @@ body {
 #sponsors {
   background: #3498db;
   position: relative;
-  padding-top: 15vh;
-  padding-bottom: 10vh;
+  padding: 10vh .5em;
   overflow: hidden;
 }
-/* line 9, ../sass/components/_sponsors.scss */
+/* line 8, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
   font-size: 500%;
   font-family: PhantLight;
   text-transform: uppercase;
   padding: 0;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   color: #3f332b;
 }
-/* line 19, ../sass/components/_sponsors.scss */
+/* line 18, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 23, ../sass/components/_sponsors.scss */
+/* line 22, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -573,21 +572,27 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (min-width: 550px) {
+  /* line 1, ../sass/components/_sponsors.scss */
+  #sponsors {
+    padding-top: 20vh;
+  }
+}
 
-/* line 30, ../sass/components/_sponsors.scss */
+/* line 37, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
   margin-top: -23%;
 }
 
-/* line 35, ../sass/components/_sponsors.scss */
+/* line 42, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
   width: 65%;
   margin: auto;
 }
 
-/* line 41, ../sass/components/_sponsors.scss */
+/* line 48, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: 0;

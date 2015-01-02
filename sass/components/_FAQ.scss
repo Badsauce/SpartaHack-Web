@@ -4,7 +4,7 @@
   background: $faqBackground;
   color: $faqText;
   font-family: Lato;
-  font-weight: 200;
+  font-weight: 100;
   text-align: center;
   position: relative;
 
@@ -23,11 +23,6 @@
 
   article {
     z-index: 10;
-
-    @media (max-width: 550px) {
-
-    }
-
   }
 
   h1 {
