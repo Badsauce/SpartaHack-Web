@@ -715,16 +715,17 @@ body {
   padding: .2em 0;
   font-family: Lato;
   font-weight: 100;
+  background-color: #2980b9;
 }
-/* line 7, ../sass/components/_footer.scss */
+/* line 8, ../sass/components/_footer.scss */
 .footer .fa-rocket {
   color: #bdc3c7;
 }
-/* line 11, ../sass/components/_footer.scss */
+/* line 12, ../sass/components/_footer.scss */
 .footer a {
   color: #F7E8DE;
 }
-/* line 14, ../sass/components/_footer.scss */
+/* line 15, ../sass/components/_footer.scss */
 .footer a:visited {
   color: #5d4f43;
 }
