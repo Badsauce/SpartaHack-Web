@@ -679,10 +679,11 @@ body {
   text-align: center;
   font-size: 350%;
   font-family: PhantLight;
-  text-transform: uppercase;
+  text-transform: lowercase;
   padding: 0;
-  padding-bottom: 1em;
-  color: #3f332b;
+  margin-bottom: 1em;
+  color: #1b3c4c;
+  text-decoration: underline;
 }
 @media (min-width: 550px) {
   /* line 11, ../sass/components/_sponsors.scss */
@@ -690,11 +691,11 @@ body {
     font-size: 500%;
   }
 }
-/* line 25, ../sass/components/_sponsors.scss */
+/* line 26, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 29, ../sass/components/_sponsors.scss */
+/* line 30, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -706,20 +707,20 @@ body {
           justify-content: center;
 }
 
-/* line 35, ../sass/components/_sponsors.scss */
+/* line 36, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
   margin-top: -23%;
 }
 
-/* line 40, ../sass/components/_sponsors.scss */
+/* line 41, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
   width: 65%;
   margin: auto;
 }
 
-/* line 46, ../sass/components/_sponsors.scss */
+/* line 47, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: 0;
