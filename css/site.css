@@ -451,7 +451,7 @@ body {
 }
 
 /* line 48, ../sass/components/_heroBackdrop.scss */
-.cloud1, .cloud2 {
+.cloud1, .cloud2, .faq2 {
   opacity: 0.8;
   z-index: 5;
 }
@@ -518,10 +518,25 @@ body {
 /* line 100, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
-  width: 110%;
+  width: 120%;
   top: -1vh;
   left: -5%;
   z-index: 8;
+}
+
+/* line 108, ../sass/components/_heroBackdrop.scss */
+.faq2 {
+  position: absolute;
+  width: 65%;
+  top: -1vh;
+  left: -12%;
+  z-index: 9;
+}
+@media (min-width: 600px) {
+  /* line 108, ../sass/components/_heroBackdrop.scss */
+  .faq2 {
+    bottom: 2vh;
+  }
 }
 
 /* line 1, ../sass/components/_FAQ.scss */
@@ -653,7 +668,13 @@ body {
   padding: 10vh .5em;
   overflow: hidden;
 }
-/* line 8, ../sass/components/_sponsors.scss */
+@media (min-width: 550px) {
+  /* line 1, ../sass/components/_sponsors.scss */
+  #sponsors {
+    padding-top: 40vh;
+  }
+}
+/* line 11, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
   font-size: 350%;
@@ -664,16 +685,16 @@ body {
   color: #3f332b;
 }
 @media (min-width: 550px) {
-  /* line 8, ../sass/components/_sponsors.scss */
+  /* line 11, ../sass/components/_sponsors.scss */
   #sponsors h1 {
     font-size: 500%;
   }
 }
-/* line 22, ../sass/components/_sponsors.scss */
+/* line 25, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 26, ../sass/components/_sponsors.scss */
+/* line 29, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -684,27 +705,21 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media (min-width: 550px) {
-  /* line 1, ../sass/components/_sponsors.scss */
-  #sponsors {
-    padding-top: 20vh;
-  }
-}
 
-/* line 37, ../sass/components/_sponsors.scss */
+/* line 35, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
   margin-top: -23%;
 }
 
-/* line 42, ../sass/components/_sponsors.scss */
+/* line 40, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
   width: 65%;
   margin: auto;
 }
 
-/* line 48, ../sass/components/_sponsors.scss */
+/* line 46, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: 0;

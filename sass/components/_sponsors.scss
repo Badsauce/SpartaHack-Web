@@ -4,6 +4,9 @@
   padding: 10vh .5em;
   overflow: hidden;
 
+  @media (min-width: 550px){
+    padding-top: 40vh;
+  }
 
   h1 {
     text-align: center;
@@ -27,11 +30,6 @@
     align-items: flex-end;
     justify-content: center;
   }
-
-  @media (min-width: 550px){
-    padding-top: 20vh;
-  }
-
 }
 
 .ship {

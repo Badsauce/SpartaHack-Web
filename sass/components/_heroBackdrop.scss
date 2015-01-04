@@ -45,7 +45,7 @@
   z-index: 1;
 }
 
-.cloud1,  .cloud2{
+.cloud1,  .cloud2, .faq2{
   opacity: 0.8;
   z-index: 5;
 }
@@ -99,8 +99,20 @@
 
 .faq-tail {
   position: absolute;
-  width: 110%;
+  width: 120%;
   top: -1vh;
   left: -5%;
   z-index: 8;
+}
+
+.faq2 {
+  position: absolute;
+  width: 65%;
+  top: -1vh;
+  left: -12%;
+  z-index: 9;
+
+  @media (min-width: 600px) {
+    bottom: 2vh;
+  }
 }
