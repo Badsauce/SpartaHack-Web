@@ -528,15 +528,9 @@ body {
 .faq2 {
   position: absolute;
   width: 65%;
-  top: -1vh;
+  top: 1vh;
   left: -12%;
   z-index: 9;
-}
-@media (min-width: 600px) {
-  /* line 108, ../sass/components/_heroBackdrop.scss */
-  .faq2 {
-    bottom: 2vh;
-  }
 }
 
 /* line 1, ../sass/components/_FAQ.scss */
