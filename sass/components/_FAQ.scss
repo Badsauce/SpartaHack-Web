@@ -26,23 +26,23 @@
   }
 
   h1 {
-    text-transform: capitalize;
-    font-size: 135%;
+    text-transform: uppercase;
+    font-size: 110%;
+    letter-spacing: .1em;
     padding-bottom: .4em;
 
     @media (min-width: 550px) {
-      font-size: 200%;
+      font-size: 130%;
     }
 
     @media (max-width: 550px) {
       display: flex;
       justify-content: space-between;
-      //border: 3px solid $faqText;
-      //border-radius: 6px;
       padding: 0;
       margin: 0 5%;
       color: $lightBrown;
       background-color: #c1aa96;
+      min-height: 50px;
 
       span{
         padding: .4em;
@@ -71,7 +71,7 @@
   }
 
   p {
-    font-size: 120%;
+    font-size: 100%;
     padding: 1em;
     display: none;
     z-index: 10;
@@ -79,7 +79,6 @@
 
     @media (min-width: 550px) {
       display: block;
-      font-size: 110%;
       padding: 0;
     }
   }
