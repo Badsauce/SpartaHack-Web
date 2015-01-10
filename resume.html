@@ -15,20 +15,32 @@
 
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/site.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
+
     </head>
   <body>
-    <form accept-charset="UTF-8" action="https://formkeep.com/f/38d661dd58b2" method="POST">
-      <input type="hidden" name="utf8" value="✓">
-      <input type="email" name="email" placeholder="Your Email">
-      <input type="text" name="name" placeholder="Your Name">
-      <input type="url" name="url" placeholder="Your Website">
+    <div class="resume-container">
+      <form accept-charset="UTF-8" action="https://formkeep.com/f/38d661dd58b2" method="POST">
+        <input type="hidden" name="utf8" value="✓">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Champion@arena.edu" required>
 
-      <input type="submit" value=">">
-    </form>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Name" required>
+
+        <input type="filepicker"
+         data-fp-button-text="Upload Resume"
+         data-fp-apikey="Afr1f2ZqTsy1iFA6tuvkAz"
+         data-fp-button-class="resume-button"
+         name="resume"
+         required>
+
+        <input type="submit" value="<p></p>">
+      </form>
+    </div>
+
+  <script type="text/javascript" src="https://api.filepicker.io/v1/filepicker.js"></script>
   </body>
 </html>
