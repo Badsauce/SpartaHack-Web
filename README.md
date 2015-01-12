@@ -1,8 +1,6 @@
 Hackathon Concept
 ==============
 
-# SpartaHack's super exciting website repository!
-
 ## Introduction
 
 This project is a concept for a hackathon website. The code is 
