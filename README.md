@@ -3,7 +3,7 @@ Hackathon Concept
 
 ## Introduction
 
-This project is a concept for a hackathon website. The code is 
+This project is a concept for a hackathon website. The code is open-source under the included License file but the design assets are not.
 
 ## Dependencies
 
