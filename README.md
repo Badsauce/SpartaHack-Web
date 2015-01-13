@@ -1,11 +1,12 @@
-Hackathon Concept
+SpartaHack-web
 ==============
 
 # SpartaHack's super exciting website repository!
 
 ## Introduction
 
-This project is a concept for a hackathon website. The code is 
+This repo contains all of the source code for SpartaHack's Spring 2014 website.
+Currently, only static webpages are required but in the future this repo will also house backend code.
 
 ## Dependencies
 
