@@ -659,7 +659,7 @@ body {
 
 /* line 1, ../sass/components/_sponsors.scss */
 #sponsors {
-  background: #3498db;
+  background: #433830;
   position: relative;
   padding: 10vh .5em;
   overflow: hidden;
@@ -678,7 +678,7 @@ body {
   text-transform: lowercase;
   padding: 0;
   margin-bottom: 1em;
-  color: #1b3c4c;
+  color: #d8bca7;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -731,7 +731,7 @@ body {
   padding: .2em 0;
   font-family: Lato;
   font-weight: 100;
-  background-color: #2980b9;
+  background-color: #3f332b;
 }
 /* line 8, ../sass/components/_footer.scss */
 .footer .fa-rocket {
