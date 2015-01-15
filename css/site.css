@@ -117,10 +117,10 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /* line 7, ../sass/components/_media-grid.scss */
 .media-grid article {
@@ -655,6 +655,11 @@ body {
     font-size: 210%;
     line-height: 120%;
   }
+}
+/* line 106, ../sass/components/_FAQ.scss */
+#faq .tail {
+  width: 100%;
+  text-align: center;
 }
 
 /* line 1, ../sass/components/_sponsors.scss */
