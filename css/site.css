@@ -196,8 +196,8 @@ body {
 .pulse:hover {
   -webkit-animation-name: 'pulse_animation';
           animation-name: 'pulse_animation';
-  -webkit-animation-duration: 2500ms;
-          animation-duration: 2500ms;
+  -webkit-animation-duration: 10000ms;
+          animation-duration: 10000ms;
   -webkit-transform-origin: 50% 50%;
       -ms-transform-origin: 50% 50%;
           transform-origin: 50% 50%;

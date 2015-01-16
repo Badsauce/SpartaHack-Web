@@ -15,7 +15,7 @@ Currently, only static webpages are required but in the future this repo will al
 ## Local Development Setup
 
 * Any modern browser should be able to launch index.html
-* This project uses [Compass](http://compass-style.org/install/) which requires [Ruby](https://www.ruby-lang.org/en/). Once compass is installed it can be set to watch and compile sass to css by invoking "compass watch" while inside the project root directory. (If you're using [Scout](http://mhs.github.io/scout-app/) rename or delete config.rb)
+* This project uses [Compass](http://compass-style.org/install/) which requires [Ruby](https://www.ruby-lang.org/en/) compass will also run [AutoPrefixer](https://github.com/postcss/autoprefixer) and canbe installed using `gem install autoprefixer-rails`. Once compass is installed it can be set to watch and compile sass to css by invoking "compass watch" while inside the project root directory. 
 
 ## Configuration Variables
 
