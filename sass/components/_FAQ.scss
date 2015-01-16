@@ -23,6 +23,9 @@
 
   article {
     z-index: 10;
+    @media (min-width: 550px) {
+      margin-bottom: 3vh;
+    }
   }
 
   h1 {
