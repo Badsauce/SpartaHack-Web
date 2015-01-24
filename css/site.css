@@ -1,4 +1,4 @@
-/* line 5, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -196,8 +196,8 @@ body {
 .pulse:hover {
   -webkit-animation-name: 'pulse_animation';
           animation-name: 'pulse_animation';
-  -webkit-animation-duration: 10000ms;
-          animation-duration: 10000ms;
+  -webkit-animation-duration: 2500ms;
+          animation-duration: 2500ms;
   -webkit-transform-origin: 50% 50%;
       -ms-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
@@ -259,28 +259,34 @@ body {
   font-family: PhantLight;
 }
 /* line 15, ../sass/components/_hero.scss */
+#hero .button {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+/* line 21, ../sass/components/_hero.scss */
 #hero h1, #hero h2, #hero p {
   margin: auto;
 }
-/* line 19, ../sass/components/_hero.scss */
+/* line 25, ../sass/components/_hero.scss */
 #hero h1, #hero h2 {
   color: #F7E8DE;
 }
-/* line 23, ../sass/components/_hero.scss */
+/* line 29, ../sass/components/_hero.scss */
 #hero h1 {
   width: 60%;
   min-width: 300px;
   font-size: 500%;
   letter-spacing: .15em;
 }
-/* line 30, ../sass/components/_hero.scss */
+/* line 36, ../sass/components/_hero.scss */
 #hero h2 {
   width: 35%;
   min-width: 200px;
   font-size: 250%;
   letter-spacing: .05em;
 }
-/* line 37, ../sass/components/_hero.scss */
+/* line 43, ../sass/components/_hero.scss */
 #hero p {
   width: 20%;
   min-width: 140px;
@@ -290,19 +296,19 @@ body {
   font-family: Raleway;
   color: #F7E8DE;
 }
-/* line 47, ../sass/components/_hero.scss */
+/* line 53, ../sass/components/_hero.scss */
 #hero .logo {
   margin-top: 10vh;
   min-width: 185px;
   width: 35%;
 }
 @media (min-width: 600px) {
-  /* line 47, ../sass/components/_hero.scss */
+  /* line 53, ../sass/components/_hero.scss */
   #hero .logo {
     margin-top: 5vh;
   }
 }
-/* line 57, ../sass/components/_hero.scss */
+/* line 63, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
   color: #F7E8DE;
@@ -312,32 +318,32 @@ body {
   text-decoration: none;
   border-bottom: 2px solid #F7E8DE;
 }
-/* line 66, ../sass/components/_hero.scss */
+/* line 72, ../sass/components/_hero.scss */
 #hero a:hover {
   color: #F7E8DE;
 }
-/* line 70, ../sass/components/_hero.scss */
+/* line 76, ../sass/components/_hero.scss */
 #hero a.anchorLink {
   display: block;
   font-size: 350%;
   margin-top: 1em;
   border: none;
 }
-/* line 80, ../sass/components/_hero.scss */
+/* line 86, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 86, ../sass/components/_hero.scss */
+/* line 92, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 91, ../sass/components/_hero.scss */
+/* line 97, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 96, ../sass/components/_hero.scss */
+/* line 102, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -349,14 +355,14 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 110, ../sass/components/_hero.scss */
+/* line 116, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 117, ../sass/components/_hero.scss */
+/* line 123, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #433830;
@@ -364,7 +370,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 124, ../sass/components/_hero.scss */
+/* line 130, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #433830;
@@ -372,14 +378,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 131, ../sass/components/_hero.scss */
+/* line 137, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 138, ../sass/components/_hero.scss */
+/* line 144, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #433830;
@@ -393,7 +399,7 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 154, ../sass/components/_hero.scss */
+/* line 160, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 1em;
 }
