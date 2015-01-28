@@ -12,11 +12,7 @@
 
   font-family: PhantLight;
 
-  .button {
-    display: block;
-    width: 20%;
-    margin: auto;
-  }
+
 
   h1, h2, p{
     margin: auto;
@@ -145,7 +141,6 @@
     display: inline-block;
     color: $buttonText;
     background: none;
-    //border: 1px solid $heroMain;
     border: none;
     border-radius: 0;
     width: 40px;
@@ -159,5 +154,14 @@
 
   #mc_embed_signup {
     margin-bottom: 1em;
+  }
+
+  .button {
+    display: block;
+    width: 20%;
+    margin: auto;
+    border: 2px solid $heroLink;
+    background-color: $mutedCream;
+    margin-top: 1vh;
   }
 }

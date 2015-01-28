@@ -258,35 +258,29 @@ body {
   letter-spacing: .05em;
   font-family: PhantLight;
 }
-/* line 15, ../sass/components/_hero.scss */
-#hero .button {
-  display: block;
-  width: 20%;
-  margin: auto;
-}
-/* line 21, ../sass/components/_hero.scss */
+/* line 17, ../sass/components/_hero.scss */
 #hero h1, #hero h2, #hero p {
   margin: auto;
 }
-/* line 25, ../sass/components/_hero.scss */
+/* line 21, ../sass/components/_hero.scss */
 #hero h1, #hero h2 {
   color: #F7E8DE;
 }
-/* line 29, ../sass/components/_hero.scss */
+/* line 25, ../sass/components/_hero.scss */
 #hero h1 {
   width: 60%;
   min-width: 300px;
   font-size: 500%;
   letter-spacing: .15em;
 }
-/* line 36, ../sass/components/_hero.scss */
+/* line 32, ../sass/components/_hero.scss */
 #hero h2 {
   width: 35%;
   min-width: 200px;
   font-size: 250%;
   letter-spacing: .05em;
 }
-/* line 43, ../sass/components/_hero.scss */
+/* line 39, ../sass/components/_hero.scss */
 #hero p {
   width: 20%;
   min-width: 140px;
@@ -296,19 +290,19 @@ body {
   font-family: Raleway;
   color: #F7E8DE;
 }
-/* line 53, ../sass/components/_hero.scss */
+/* line 49, ../sass/components/_hero.scss */
 #hero .logo {
   margin-top: 10vh;
   min-width: 185px;
   width: 35%;
 }
 @media (min-width: 600px) {
-  /* line 53, ../sass/components/_hero.scss */
+  /* line 49, ../sass/components/_hero.scss */
   #hero .logo {
     margin-top: 5vh;
   }
 }
-/* line 63, ../sass/components/_hero.scss */
+/* line 59, ../sass/components/_hero.scss */
 #hero a {
   display: inline-block;
   color: #F7E8DE;
@@ -318,32 +312,32 @@ body {
   text-decoration: none;
   border-bottom: 2px solid #F7E8DE;
 }
-/* line 72, ../sass/components/_hero.scss */
+/* line 68, ../sass/components/_hero.scss */
 #hero a:hover {
   color: #F7E8DE;
 }
-/* line 76, ../sass/components/_hero.scss */
+/* line 72, ../sass/components/_hero.scss */
 #hero a.anchorLink {
   display: block;
   font-size: 350%;
   margin-top: 1em;
   border: none;
 }
-/* line 86, ../sass/components/_hero.scss */
+/* line 82, ../sass/components/_hero.scss */
 #hero .sendgrid-subscription-widget span {
   display: none;
 }
-/* line 92, ../sass/components/_hero.scss */
+/* line 88, ../sass/components/_hero.scss */
 #hero label {
   display: inline-block;
   width: 44%;
 }
-/* line 97, ../sass/components/_hero.scss */
+/* line 93, ../sass/components/_hero.scss */
 #hero div.mc-field-group {
   width: 44%;
   display: inline-block;
 }
-/* line 102, ../sass/components/_hero.scss */
+/* line 98, ../sass/components/_hero.scss */
 #hero input[type=email] {
   display: inline-block;
   background: none;
@@ -355,14 +349,14 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 116, ../sass/components/_hero.scss */
+/* line 112, ../sass/components/_hero.scss */
 #hero ::-webkit-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 123, ../sass/components/_hero.scss */
+/* line 119, ../sass/components/_hero.scss */
 #hero :-moz-placeholder {
   /* Firefox 18- */
   color: #433830;
@@ -370,7 +364,7 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 130, ../sass/components/_hero.scss */
+/* line 126, ../sass/components/_hero.scss */
 #hero ::-moz-placeholder {
   /* Firefox 19+ */
   color: #433830;
@@ -378,14 +372,14 @@ body {
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 137, ../sass/components/_hero.scss */
+/* line 133, ../sass/components/_hero.scss */
 #hero :-ms-input-placeholder {
   color: #433830;
   font-family: PhantLight;
   padding-left: .5em;
   letter-spacing: .06em;
 }
-/* line 144, ../sass/components/_hero.scss */
+/* line 140, ../sass/components/_hero.scss */
 #hero input[type=submit] {
   display: inline-block;
   color: #433830;
@@ -399,9 +393,18 @@ body {
   background-color: rgba(247, 232, 222, 0.3);
   -webkit-appearance: none;
 }
-/* line 160, ../sass/components/_hero.scss */
+/* line 155, ../sass/components/_hero.scss */
 #hero #mc_embed_signup {
   margin-bottom: 1em;
+}
+/* line 159, ../sass/components/_hero.scss */
+#hero .button {
+  display: block;
+  width: 20%;
+  margin: auto;
+  border: 2px solid #F7E8DE;
+  background-color: rgba(247, 232, 222, 0.3);
+  margin-top: 1vh;
 }
 
 /* line 2, ../sass/components/_heroBackdrop.scss */
