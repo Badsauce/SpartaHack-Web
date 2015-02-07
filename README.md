@@ -6,7 +6,7 @@ SpartaHack-web
 ## Introduction
 
 This repo contains all of the source code for SpartaHack's Spring 2014 website.
-Currently, only static webpages are required but in the future this repo will also house backend code.
+I am no longer working on this project.
 
 ## Dependencies
 
